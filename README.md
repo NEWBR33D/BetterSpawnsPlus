@@ -244,7 +244,7 @@ Below is a listing of information about each option within the mod and what they
 ```
 - This option can either increase or decrease the production time in the hideout.
 
-###**Traders Options:**
+### **Traders Options:**
 ```
 "repairCostMultiplierForAllTraders": [integer/decimal]
 ```
