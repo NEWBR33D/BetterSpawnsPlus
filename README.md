@@ -256,7 +256,7 @@ Below is a listing of information about each option within the mod and what they
 ```
 "returnChancePercent": [%]
 ```
-- This option set the chance that a trader returns your insured items.
+- This option sets the chance that a trader returns your insured items.
 ```
 "minReturnTime": [integer]
 "maxReturnTime": [integer]
