@@ -6,7 +6,7 @@ Developed by: [NEWBR33D](https://github.com/NEWBR33D) (aka [PreyToLive](https://
 
 - All maps have their own set of customized spawns, all bots have a set percent chance to spawn, and all bots have a random chance to spawn in groups.
 - Bots will spawn in set intervals for 45 or 60 minutes depending on the map.
-  - 45 minute maps: Factory and The Lab
+  - 45 minute maps: Factory and The Lab.
   - 60 minute maps: Customs, Interchange, Lighthouse, Reserve, Shoreline, Streets of Tarkov, and Woods.
 - Pmc bots have been made to mostly spawn in seperate waves from scav bots. So, now you will more likely have a chance to encounter pmcs before they get spawn killed by scavs.
 - All bots have been made to spawn more consistently in POIs, however the "randomness" of the spawns will ensure that entire maps still feel "alive" during raids.
