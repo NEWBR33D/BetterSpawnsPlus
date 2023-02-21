@@ -1,8 +1,8 @@
 # **PreyToLive-BetterSpawnsPlus v1.0.7**
 
-Developed by: NEWBR33D (aka PreyToLive)
+Developed by: [NEWBR33D](https://github.com/NEWBR33D) (aka [PreyToLive](https://hub.sp-tarkov.com/user/24548-preytolive/))
 
-BetterSpawnsPlus is a mod that aims to make all bots in SPTarkov spawn more consistently throughout each raid and prevent raids from becoming ghost towns after ~20 minutes.
+[BetterSpawnsPlus](https://hub.sp-tarkov.com/files/file/1002-betterspawnsplus/) is a mod that aims to make all bots in SPTarkov spawn more consistently throughout each raid and prevent raids from becoming ghost towns after ~20 minutes.
 
 - All maps have their own set of customized spawns, all bots have a set percent chance to spawn, and all bots have a random chance to spawn in groups.
 - Bots will spawn in set intervals for 45 or 60 minutes depending on the map.
@@ -36,17 +36,17 @@ You can now create your own presets within the "presets" folder. Create a duplic
 > NOTE: If you only want the ai spawn changes that my mod offers then please use the "spawnChangesOnlyPreset". This preset is already selected by default in the "presetManager.json" when first downloading the mod.
 
 ## **BetterSpawnsPlus Options:**
+Below is a listing of information about each option within the mod and what they do. Every option is able to be enabled or disabled.
 ```
 "enabled": [true/false]
 ```
-- this option enables the mod and/or mod sections</sub>
+- This option is used quite frequently to enable or disable sections of the mod.
 
 ### **Raids Options:**
 ```
 "allOpenZones": [n/a]
 ```
-- enabled by default when the mod is enabled and is required for the mod to work correctly
-- this option allows pmcs and scavs to spawn in certain ai open zones that they previously could not spawn in
+My mod "AllOpenZones" is enabled by default when the mod is enabled and is a requirement for the mod to work correctly. "AllOpenZones" basically makes pmcs and scavs spawn in certain bot "spawn zones" that they previously could not or did not spawn in. More information about the included open zones can be found [here](https://hub.sp-tarkov.com/files/file/936-allopenzones/).
 ```
 "betterSpawns": 
     enabled: [true/false]
@@ -276,11 +276,11 @@ You can now create your own presets within the "presets" folder. Create a duplic
 "replaceTradersProfilePics": [true/false]
 ```
 - this option uses my custom trader profile pics that i think look better than the original
-- IMPORTANT: clean the temp files in the launcher settings for the trader profile pictures to show
+> IMPORTANT: clean the temp files in the launcher settings for the trader profile pictures to show
 ```
 "replaceLauncherBackground": [true/false]
 ```
 - this option uses my preffered launcher background images
 - a random image will be chosen each time you restart the server and launcher
-- launcher background artwork created by Vlad Novikov: https://www.artstation.com/yu2673 and Eugene Shushliamin: https://www.artstation.com/geck
-- IMPORTANT: clean the temp files in the launcher settings for the launcher backgrounds to show
+- launcher background artwork created by [Vlad Novikov](https://www.artstation.com/yu2673) and [Eugene Shushliamin](https://www.artstation.com/geck)
+> IMPORTANT: clean the temp files in the launcher settings for the launcher backgrounds to show
