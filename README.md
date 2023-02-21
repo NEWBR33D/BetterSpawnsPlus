@@ -1,4 +1,4 @@
-## **PreyToLive-BetterSpawnsPlus v1.0.7:**
+## PreyToLive-BetterSpawnsPlus v1.0.7:
 
 Developed by:
     NEWBR33D (aka PreyToLive)
