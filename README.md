@@ -281,3 +281,6 @@ Below is a listing of information about each option within the mod and what they
 - A random image will be chosen each time you restart the server and launcher.
 - All launcher background artwork is created by [Vlad Novikov](https://www.artstation.com/yu2673) and [Eugene Shushliamin](https://www.artstation.com/geck).
 > IMPORTANT: Clean the temporary files in the launcher settings for the launcher backgrounds to show.
+
+## **Disclaimer:**
+I do not claim any of the rights to any of the images or artwork used within this mod.
