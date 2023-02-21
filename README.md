@@ -8,10 +8,13 @@ Developed by: [NEWBR33D](https://github.com/NEWBR33D) (aka [PreyToLive](https://
 - Bots will spawn in set intervals for 45 or 60 minutes depending on the map.
   - 45 minute maps: Factory and The Lab
   - 60 minute maps: Customs, Interchange, Lighthouse, Reserve, Shoreline, Streets of Tarkov, and Woods.
-- Bots have been made to spawn more consistently in POIs, however the "randomness" of the spawns will ensure that entire maps still feel "alive".
+- Pmc bots have been made to mostly spawn in seperate waves from scav bots. So, now you will more likely have a chance to encounter pmcs before they get spawn killed by scavs.
+- All bots have been made to spawn more consistently in POIs, however the "randomness" of the spawns will ensure that entire maps still feel "alive" during raids.
 - This mod also makes PMCs spawn in labs. :sunglasses:
 
-> NOTE: Besides making bot spawns "better" I have also included some other options within the config file presets that I've made to better suit how I prefer to play the game. (See "BetterSpawnsPlus Options" below for more information.) This is still very much a work-in-progress so if you have any recommendations for the mod or would like to see any other options added to it please let me know and I will see what I can do.
+> NOTE: Besides making bot spawns "better" I have also included some other options that can be enabled within the config file presets that I've made to better suit how I prefer to play the game. (See "BetterSpawnsPlus Options" below for more information.) 
+
+> This is still very much a work-in-progress so if you have any recommendations for the mod or would like to see any other options added to it please let me know and I will see what I can do.
 
 ## ***Important!:***
 
@@ -46,15 +49,15 @@ Below is a listing of information about each option within the mod and what they
 ```
 "allOpenZones": [n/a]
 ```
-My mod "AllOpenZones" is enabled by default when the mod is enabled and is a requirement for the mod to work correctly. "AllOpenZones" basically makes pmcs and scavs spawn in certain bot "spawn zones" that they previously could not or did not spawn in. More information about the included open zones can be found [here](https://hub.sp-tarkov.com/files/file/936-allopenzones/).
+- My mod "AllOpenZones" is enabled by default when the mod is enabled and is a requirement for the mod to work correctly. 
+- "AllOpenZones" basically makes pmcs and scavs spawn in certain bot "spawn zones" that they previously could not or did not spawn in. More information about the included open zones can be found [here](https://hub.sp-tarkov.com/files/file/936-allopenzones/).
 ```
 "betterSpawns": 
     enabled: [true/false]
 ```
-- this option enables the better ai spawn waves for each map
-- i have made the ai conistently spawn over a duration of 45 to 60 minutes based on the map (factory & labs are 45 min, everything else is 60 min)
-- setting the raid timer past 45 or 60 minutes is okay to do, but just know that the ai will stop spawning after 45 or 60 minutes
-- pmcs have been made to spawn seperately from scavs so now you will more likely have a chance to encounter them before they spawn kill each other
+- This option enables or disables the better spawn waves for bots on each map.
+- As mentioned above, I have made the bots conistently spawn over a duration of 45 to 60 minutes based on the map (factory & labs are 45 min, everything else is 60 min).
+- Setting the raid timer past 45 or 60 minutes is okay to do, but just know that the bots will stop spawning after 45 or 60 minutes.
 ```
 "bosses": 
     "enabled": [true/false]
@@ -62,7 +65,9 @@ My mod "AllOpenZones" is enabled by default when the mod is enabled and is a req
         "bossName": [0->100]
     }
 ```
-- please use this option to enable or disable bosses instead of the enable/disable checkbox in-game
+- This option enables or disables boss bots. Please use this option to enable or disable bosses instead of the enable/disable checkbox in-game.
+- The chance of each boss spawning can be set as well.
+- All boss spawns are the same as online.
 ```
 "cultists": {
     "enabled": [true/false],
@@ -72,55 +77,56 @@ My mod "AllOpenZones" is enabled by default when the mod is enabled and is a req
     "enabled": [true/false]
 }
 ```
-- enables/disables cultist spawns and sniper spawns
+- These options are similar to the bosses options except for cultists and sniper scavs.
+- All cultists and sniper scavs spawns are the same as online, with the exception of sniper scavs having a small chance to spawn twice within a raid.
 ```
 "escapeTimeLimit": [integer]
 ```
-- sets the raid timer (in minutes)
+- This option sets the duration of a raid (in minutes).
 ```
 "maxBotCap": [integer]
 ```
-- sets the maximum number of ai able to spawn at one time for each map
-- when a map reaches a count of 25 ai it will stop spawning more ai until an ai dies
-- i recommend setting this number no higher than 30 since it can cause your fps to drop significantly
+- This option sets the maximum number of bots able to spawn on the map. When a map reaches the maximum number of bots set it will stop spawning more bots until a bot on the map dies.
+- It is recommended to not set this number any higher than 30 since it can cause fps to drop significantly.
 ```
 "airDropChance": [%]
 ```
-- percent chance that their will be an airdrop during a raid
+- This option sets the chance that the airdrop plane will spawn into the raid.
 ```
 "airdropsPerRaid": [integer]
 ```
-- set the amount of possible airdrops per raid
+- This option sets the amount of airdrop planes that can spawn each raid.
+- Additional airdrop planes are not guaranteed to spawn however, even with "airDropChance" set to 100.
 ```
 "globalLootChanceModifier": [integer/decimal]
 ```
-- this option changes the chance for loot to spawn in each loot spawn
+- This option sets the chance for loot to spawn in each loot spawn.
 ```
 "looseLootMultiplier": [integer/decimal]
 ```
-- this option changes the amount of loose loot found in raid
+- This option changes the amount of loose loot found in-raid.
 ```
 "staticLootMultiplier": [integer/decimal]
 ```
-- this option changes the amount of loot found in containers found in raid
+- This option changes the amount of loot found in-raid in containers.
 ```
 "openAllExfilsRegardlessOfEntryPoint": [true/false]
 ```
-- opens all exfil locations regardless of player spawn
+- This option opens all exfil locations regardless of player spawn / map side. However, not all efils will be available to the player each raid.
 ```
 "allExtractionsAlwaysAvailable": [true/false]
 ```
-- all exfil locations will be available to extract at
+- This option makes all exfil locations always available to extract at in every raid.
+- This option is side-based however. So scav players will not be able to extract at pmc exfils and vice-versa.
 ```
 "removeExtractionRestrictions": [true/false]
 ```
-- removes extraction restrictions
+- This option removes extraction restrictions such as co-op requirements, money requirments, etc.
 ```
 "airdropMinStartTime": [integer]
 "airdropMaxStartTime": [integer]
 ```
-- sets the min/max time that an airdrop can occur at
-- time in minutes
+- These options set the minimum and maximum time that an airdrop plane will spawn into the map (in minutes).
 ```
 "planeVolume": [0->100]
 ```
