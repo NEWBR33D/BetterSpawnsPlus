@@ -130,87 +130,82 @@ Below is a listing of information about each option within the mod and what they
 ```
 "planeVolume": [0->100]
 ```
-- sets the volume of the plane audio
+- This option sets the volume of the plane audio in-raid.
 ```
 "randomEncounters":
     "enabled": [true/false]
     "chance": [%]
     "botAmount": ["#,#,#"]
 ```
-- an experimental option i thought would make raids more dangerous/exciting
-- provides the option for random cultist, random raider, and random rogue encounters during a raid
-- a number from the sequence of numbers in "amount" is chosen at random. this randomly chosen number is the number of raiders that will be spawned in
+- This is an experimental option I thought would make raids more dangerous and/or exciting.
+- Inlcudes the option for random cultists, random raiders, and/or random rogues during a raid.
+- A number from the sequence of numbers in "botAmount" is chosen at random. This randomly chosen number is the number of bots that will be spawned in.
 
 ### **Bots Options:**
 ```
 "chanceSameFactionIsHostile": [%]
 ```
-- percent chance that bear/usec will be hostile to you
+- This option sets the chance that bear or usec pmc bots will be hostile towards you, depending on the faction of your character.
 ```
 "botLevelRelativeToPlayerLevel": [integer]
 ```
-- sets the ai level based on the player level
-- the number you set is a range, for example if you are lvl 25 and the number set is 5 then the ai level will range from 20 to 30
+- This option sets the bot level based on the player level.
+- The number you set is a range. For example: If you are level 25 and the number set is 5 then the bot level will range from 20 to 30.
 ```
 "customPmcDogTags": [true/false]
 ```
-- this option enables the use of the "live tarkov" names I created for the pmc dogtags
+- This option enables or disables the use of the "live tarkov" names I created for the pmc dog tags.
 ```
 "makePmcsNotRandomlyTalk": [true/false]
 ```
-- pmcs now talk again in 3.5.0, however i prefered them not talking like in 3.4.1 as it gives there position away
-- this doesn't make them completely silent but its better than their usual shouting that occurs quite often
-- i'll be looking into making them completely silent, but for now this is all i can do
+- Pmcs now talk again in spt-aki 3.5.0, however I prefer them not talking like in stp-aki 3.4.1 as it gives there position away too often.
+- This option fixes this by preventing the pmc bots from talking, except when reloading they occasionally talk. Its not perfect and doesn't make them completely silent but its better than their usual shouting that occurs quite often.
 
 ### **Items Options:**
 ```
 "removeArmorDegradationFromRepairs": [true/false]
 ```
-- this option prevents permanent armor degradation from repairs
+- This option prevents permanent armor degradation from repairs.
 ```
 "removeWeaponDegradationFromRepairs": [true/false]
 ```
-- this option prevents permanent weapon degradation from repairs
+- This option prevents permanent weapon degradation from repairs.
 ```
 "insuranceAllowedOnAllLocations": [true/false]
 ```
-- this option allows insurance all locations
-- primarily for labs
+- This option allows insurance on all locations, primarily for labs.
 ```
 "insuranceAllowedForAllItems": [true/false]
 ```
-- this option allows all items to be insurable
+- This option allows all items to be insurable, primarily for ammunition and grenades.
 ```
 "removeWeaponDurabilityBurn": [true/false]
 ```
-- this options removes durability burn for weapons
+- This options removes durability burn for weapons from general use.
 ```
 "removeWeaponDeteriorationFromBullets": [true/false]
 ```
-- this options removes bullet deterioration for weapons
+- This options removes bullet deterioration for weapons.
 ```
 "allowAllItemsToBelootable": [true/false]
 ```
-- this option allows all items to be lootable off of dead ai bodies
-- primarily allows you to loot armbands and scabbards
+- This option allows all items to be lootable off of bots, primarily armbands and scabbards.
 ```
 "allItemsUnexaminedByDefault": [true/false]
 ```
-- this option makes all items unexamined by default
-- meant for new games where some of the items are examined by default
+- This option makes all items unexamined by default and is meant for new profiles where some of the items can already be examined by default.
 ```
 "labsAccessKeycard":
     "removeLabsReq": [true/false]
     "maxNumberOfUses": [integer]
 ```
-- this option allows you to either completely disable the labs keycard requirement
-- or instead you can set the number of uses allowed for the labs keycard
+- This option allows you to either completely disable the labs keycard requirement or instead you can set the number of uses allowed for each labs keycard you find in-raid.
 
 ### **Player Options:**
 ```
 "scavTimer": [integer]
 ```
-- sets the scav cooldown timer (in minutes)
+- This option sets the scav cooldown timer (in minutes).
 ```
 "healthInRaid":
     "energyLoopTime": [integer]
@@ -218,75 +213,71 @@ Below is a listing of information about each option within the mod and what they
     "hydrationLoopTime": [integer]
     "hydrationDecreasePerLoopTime": [integer/decimal]
 ```
-- this option changes the energy and hydration lost per minute while in raid
+- This option changes the amount of energy and hydration lost per minute while in raid.
 ```
 "healthInHideout":
     "healthRegenerationMultiplier": [integer/decimal]
     "energyRegenerationLoopTime": [integer]
     "hydrationRegenerationLoopTime": [integer]
 ```
-- this option changes the energy, hydration, and health regeneration time while in hideout
+- This option changes the energy, hydration, and health regeneration time while in the hideout or menu screen.
 ```
 "removeFreeHealTrialLevelsAndRaids": [true/false]
 ```
-- this option removes the free heals you get after raids
-- for those of you that want to make the game more difficult
+- This option removes the free heals you get after raids and is meant for those of you that want to make the game more difficult at the start of a new profile.
 ```
 "allowTacticalClothingForBothFactions": [true/false]
 ```
-- this option allows all tactical clothing to be avilable for both bear and usec
+- This option allows all tactical clothing to be available for both bear and usec.
 ```
 "unlockAllTacticalClothingForFree": [true/false]
 ```
-- this option unlocks all tactical clothing for free
+- This option unlocks all tactical clothing for free.
 
 ### **Hideout Options:**
 ```
 "constructionTimeMultiplier": [integer/decimal]
 ```
-- this option either increases or decreases the construction time in hideout
-- for example if the number is set to 0.025 then a construction that takes 24 hours will now take 36 minutes
+- This option can either increase or decrease the construction time in the hideout. For example: If the number is set to 0.025 then a construction that takes 24 hours will now only take 36 minutes.
 ```
 "productionTimeMultiplier": [integer/decimal]
 ```
-- this option either increases or decreases the production time in hideout
+- This option can either increase or decrease the production time in the hideout.
 
 ###**Traders Options:**
 ```
 "repairCostMultiplierForAllTraders": [integer/decimal]
 ```
-- this option either increases or decreases traders item repair cost
-- for example if the number is set to 0.75 then a reapir that costs 30,000 will now cost 22,500
+- This option can either increase or decrease traders item repair costs. For example: If the number is set to 0.75 then a repair that normally costs 30,000 roubles will now only cost 22,500 roubles.
 ```
 "insuranceMultiplier": [integer/decimal]
 ```
-- this option changes the cost of insurance
+- This option changes the cost of insurance. For example: If the number is set to 0.50 then insurance that normally costs 15,000 roubles will now only cost 7,500 roubles.
 ```
 "returnChancePercent": [%]
 ```
-- percent chance that a trader returns your insured items
+- This option set the chance that a trader returns your insured items.
 ```
 "minReturnTime": [integer]
 "maxReturnTime": [integer]
 ```
-- these set the min/max return time of insured items
-- must be a whole number, no decimals (in hours)
+- These options set the minimum and maximum return time of insured items (in hours).
 ```
 "repairQualityDegradation": [integer/decimal]
 ```
-- this option sets the amount of degradation applied to gear/weapons during repairs
-- setting this to zero will remove any degradation during repairs
+- This option sets the amount of degradation applied to gear/weapons during repairs.
+- Setting this option to zero will prevent any gear/weapon degradation during repairs.
 
 ### **Misc Options:**
 ```
 "replaceTradersProfilePics": [true/false]
 ```
-- this option uses my custom trader profile pics that i think look better than the original
-> IMPORTANT: clean the temp files in the launcher settings for the trader profile pictures to show
+- This option uses my custom trader profile pictures that I think look better than the original.
+> IMPORTANT: Clean the temporary files in the launcher settings for the trader profile pictures to show.
 ```
 "replaceLauncherBackground": [true/false]
 ```
-- this option uses my preffered launcher background images
-- a random image will be chosen each time you restart the server and launcher
-- launcher background artwork created by [Vlad Novikov](https://www.artstation.com/yu2673) and [Eugene Shushliamin](https://www.artstation.com/geck)
-> IMPORTANT: clean the temp files in the launcher settings for the launcher backgrounds to show
+- This option uses my preferred launcher background images.
+- A random image will be chosen each time you restart the server and launcher.
+- All launcher background artwork is created by [Vlad Novikov](https://www.artstation.com/yu2673) and [Eugene Shushliamin](https://www.artstation.com/geck).
+> IMPORTANT: Clean the temporary files in the launcher settings for the launcher backgrounds to show.
