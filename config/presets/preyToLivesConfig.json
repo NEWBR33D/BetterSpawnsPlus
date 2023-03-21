@@ -1,0 +1,524 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v1.1.1",
+    "desc": "Config file preset: PreyToLive's custom preset",
+    "betterSpawnsPlus": {
+        "enabled": true,
+        "consoleLogs": true,
+        "locations": {
+            "customs": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 2,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_MEETING_OF_THE_BOSSES": 1
+                    }
+                }
+            },
+            "factory": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 0,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 0,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_THE_NOTORIOUS_SAVAGES": 1
+                    }
+                }
+            },
+            "interchange": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 2,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_MEETING_OF_THE_BOSSES": 1
+                    }
+                }
+            },
+            "labs": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 2,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_A_COLD_CASE": 1
+                    }
+                }
+            },
+            "lighthouse": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 2,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_ROGUE_SURVEILLANCE": 1
+                    }
+                }
+            },
+            "reserve": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 2,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_RAIDER_ONSLAUGHT": 1
+                    }
+                }
+            },
+            "shoreline": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 2,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_THE_SCIENTISTS_BRIGADE": 1
+                    }
+                }
+            },
+            "streets": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 2,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_MEETING_OF_THE_BOSSES": 1
+                    }
+                }
+            },
+            "woods": {
+                "extendedLogs": false,
+                "main": {
+                    "enabled": true,
+                    "enableBosses": true,
+                    "presets": {
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_1": 1,
+                        "PTL_BSP_MAIN_PRESET_LIKELIVETARKOV_2": 1
+                    }
+                },
+                "spawnGenerator": {
+                    "enabled": true,
+                    "presets": {
+                        "PTL_BSP_SG_PRESET_ADDON_BOSSES": 1,
+                        "PTL_BSP_SG_PRESET_ADDON_CULTISTS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_RAIDERS": 2,
+                        "PTL_BSP_SG_PRESET_ADDON_ROGUES": 2,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_1": 3,
+                        "PTL_BSP_SG_PRESET_LIKELIVETARKOV_2": 3,
+                        "PTL_BSP_SG_PRESET_THE_HUNTSMANS_GATHERING": 1
+                    }
+                }
+            }
+        }
+    },
+    "otherOptions": {
+        "enabled": true,
+        "consoleLogs": true,
+        "misc": {
+            "replaceLauncherBackground": true,
+            "replaceTradersProfilePics": true
+        },
+        "maxBotCap": {
+            "enabled": true,
+            "customs": {
+                "min": 25,
+                "max": 30
+            },
+            "factory": {
+                "min": 12,
+                "max": 20
+            },
+            "interchange": {
+                "min": 25,
+                "max": 30
+            },
+            "labs": {
+                "min": 12,
+                "max": 20
+            },
+            "lighthouse": {
+                "min": 25,
+                "max": 30
+            },
+            "reserve": {
+                "min": 25,
+                "max": 30
+            },
+            "shoreline": {
+                "min": 25,
+                "max": 30
+            },
+            "streets": {
+                "min": 25,
+                "max": 30
+            },
+            "woods": {
+                "min": 25,
+                "max": 30
+            }
+        },
+        "raidTimer": {
+            "enabled": true,
+            "customs": {
+                "min": 45,
+                "max": 60
+            },
+            "factory": {
+                "min": 35,
+                "max": 45
+            },
+            "interchange": {
+                "min": 45,
+                "max": 60
+            },
+            "labs": {
+                "min": 35,
+                "max": 45
+            },
+            "lighthouse": {
+                "min": 45,
+                "max": 60
+            },
+            "reserve": {
+                "min": 45,
+                "max": 60
+            },
+            "shoreline": {
+                "min": 45,
+                "max": 60
+            },
+            "streets": {
+                "min": 45,
+                "max": 60
+            },
+            "woods": {
+                "min": 45,
+                "max": 60
+            }
+        },
+        "airdrops": {
+            "enabled": true,
+            "startTime": {
+                "min": 3,
+                "max": 25
+            },
+            "plane": {
+                "dynamic": true,
+                "speed": {
+                    "min": 50,
+                    "max": 120
+                },
+                "height": {
+                    "min": 200,
+                    "max": 600
+                },
+                "volume": {
+                    "min": 10,
+                    "max": 100
+                },
+                "crate": {
+                    "speed": {
+                        "min": 2,
+                        "max": 8
+                    },
+                    "items": {
+                        "min": 15,
+                        "max": 35
+                    }
+                }
+            },
+            "chance": {
+                "customs": 30,
+                "interchange": 30,
+                "lighthouse": 30,
+                "reserve": 30,
+                "shoreline": 30,
+                "streets": 30,
+                "woods": 30
+            }
+        },
+        "bots": {
+            "enabled": true,
+            "pmc": {
+                "customPmcDogTags": true,
+                "makePmcsNotRandomlyTalk": true,
+                "chanceSameFactionIsHostile": 85,
+                "botLevelRelativeToPlayerLevel": 15,
+                "brainType": {
+                    "enabled": true,
+                    "randomize": true,
+                    "bear": {
+                        "bossKilla": 4,
+                        "bossKnight": 3,
+                        "bossGluhar": 1,
+                        "bossSanitar": 5,
+                        "bossTagilla": 1,
+                        "followerGluharAssault": 1,
+                        "followerBully": 1,
+                        "followerBigPipe": 4,
+                        "followerSanitar": 1,
+                        "assault": 4,
+                        "cursedAssault": 2,
+                        "exUsec": 2,
+                        "pmcBot": 5
+                    },
+                    "usec": {
+                        "bossKilla": 4,
+                        "bossKnight": 3,
+                        "bossGluhar": 1,
+                        "bossSanitar": 5,
+                        "bossTagilla": 1,
+                        "followerGluharAssault": 1,
+                        "followerBully": 1,
+                        "followerBigPipe": 4,
+                        "followerSanitar": 1,
+                        "assault": 4,
+                        "cursedAssault": 2,
+                        "exUsec": 2,
+                        "pmcBot": 5
+                    }
+                }
+            }
+        },
+        "extractions": {
+            "enabled": true,
+            "openAllExfilsRegardlessOfEntryPoint": true,
+            "allExtractionsAlwaysAvailable": true,
+            "removeExtractionRestrictions": true
+        },
+        "loot": {
+            "enabled": true,
+            "customs": {
+                "globalLootChanceModifier": 0.8,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            },
+            "factory": {
+                "globalLootChanceModifier": 0.2,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            },
+            "interchange": {
+                "globalLootChanceModifier": 0.64,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            },
+            "labs": {
+                "globalLootChanceModifier": 0.37,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            },
+            "lighthouse": {
+                "globalLootChanceModifier": 0.17,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            },
+            "reserve": {
+                "globalLootChanceModifier": 0.33,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            },
+            "shoreline": {
+                "globalLootChanceModifier": 0.3,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            },
+            "streets": {
+                "globalLootChanceModifier": 0.55,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            },
+            "woods": {
+                "globalLootChanceModifier": 0.9,
+                "looseLootMultiplier": 1.4,
+                "staticLootMultiplier": 1.2
+            }
+        },
+        "items": {
+            "enabled": true,
+            "repairs": {
+                "removeArmorDegradationFromRepairs": false,
+                "removeWeaponDegradationFromRepairs": false
+            },
+            "insurance": {
+                "insuranceAllowedOnAllLocations": true,
+                "insuranceAllowedForAllItems": true
+            },
+            "gear": {
+                "removeWeaponDurabilityBurn": true,
+                "removeWeaponDeteriorationFromBullets": true
+            },
+            "allowAllItemsToBelootable": true,
+            "allItemsUnexaminedByDefault": true,
+            "keys": {
+                "labsAccessKeycard": {
+                    "removeLabsReq": false,
+                    "maxNumberOfUses": 3
+                }
+            }
+        },
+        "player": {
+            "enabled": true,
+            "scavCooldownTimer": 15,
+            "healthInRaid": {
+                "enabled": true,
+                "energyLoopTime": 1,
+                "energyDecreasePerLoopTime": 1.6,
+                "hydrationLoopTime": 1,
+                "hydrationDecreasePerLoopTime": 1.3
+            },
+            "healthInHideout": {
+                "enabled": true,
+                "energyRegenerationLoopTime": 5,
+                "hydrationRegenerationLoopTime": 5,
+                "healthRegenerationMultiplier": 3,
+                "removeFreeHealTrialLevelsAndRaids": true
+            },
+            "tacticalClothing": {
+                "allowAllTacticalClothingForBothFactions": true,
+                "unlockAllTacticalClothingForFree": false
+            }
+        },
+        "hideout": {
+            "enabled": true,
+            "constructionTimeMultiplier": 0.025,
+            "productionTimeMultiplier": 0.025
+        },
+        "traders": {
+            "enabled": true,
+            "repairCostMultiplierForAllTraders": 0.75,
+            "prapor": {
+                "insurance": {
+                    "insuranceMultiplier": 0.12,
+                    "returnChancePercent": 85,
+                    "minReturnTime": 0,
+                    "maxReturnTime": 1
+                },
+                "repairs": {
+                    "repairQualityDegradation": 0.9
+                }
+            },
+            "therapist": {
+                "insurance": {
+                    "insuranceMultiplier": 0.21,
+                    "returnChancePercent": 100,
+                    "minReturnTime": 0,
+                    "maxReturnTime": 2
+                }
+            },
+            "skier": {
+                "repairs": {
+                    "repairQualityDegradation": 0.45
+                }
+            },
+            "mechanic": {
+                "repairs": {
+                    "repairQualityDegradation": 0
+                }
+            }
+        }
+    }
+}

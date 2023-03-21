@@ -1,0 +1,7 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v1.1.1",
+    "desc": "Config preset manager",
+
+    "configFilePreset": "spawnChangesOnlyConfig"
+
+}
