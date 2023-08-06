@@ -1,0 +1,87 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v1.1.4",
+    "description": "Preset Manager: Determines which config file is used in-game and provides some global overrides",
+
+    "configFileToUseInGame": "ONLY_SPAWN_CHANGES_LIKELIVETARKOV",
+
+    "globalOverrides": {
+        "enabled": false,
+        "info": "Difficulty options are easy, normal, hard, or impossible",
+        "botDifficulty": {
+            "pmcs": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "scavs": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "sniperScavs": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "bosses": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "cultists": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "raiders": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "rogues": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "bloodhounds": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "weirdScavs": {
+                "enabled": false,
+                "difficulty": "normal"
+            }
+        },
+        "botChance": {
+            "pmcs": {
+                "enabled": false,
+                "chance": 100
+            },
+            "scavs": {
+                "enabled": false,
+                "chance": 100
+            },
+            "sniperScavs": {
+                "enabled": false,
+                "chance": 100
+            },
+            "bosses": {
+                "enabled": false,
+                "chance": 100
+            },
+            "cultists": {
+                "enabled": false,
+                "chance": 100
+            },
+            "raiders": {
+                "enabled": false,
+                "chance": 100
+            },
+            "rogues": {
+                "enabled": false,
+                "chance": 100
+            },
+            "bloodhounds": {
+                "enabled": false,
+                "chance": 100
+            },
+            "weirdScavs": {
+                "enabled": false,
+                "chance": 100
+            }
+        }
+    }
+}
