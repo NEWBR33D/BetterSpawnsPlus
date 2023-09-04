@@ -1,0 +1,150 @@
+// PreyToLive's BetterSpawnsPlus v1.1.3 - Open Zone Guide //
+
+Here you will find all the available open zones for bots to spawn in.
+I did my best to locate and determine where each of these open zones occur at in each map. Use the maps from the links below as a
+reference of the general areas where the bots roam for each open zone.
+
+Links to all the Tarkov maps I used as a reference:
+	Customs: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/27/2021_Customs_by_PaulRIISK.png/revision/latest?cb=20210202221431
+	Factory: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/94/Factory_loot.png/revision/latest?cb=20221130011116
+	Interchange: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/27/Interchange2DMapLorathor.jpg/revision/latest?cb=20220409224052
+	Labs: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d7/The_Lab_Map_%28EN%29.png/revision/latest?cb=20200329133328
+	Lighthouse: https://i.imgur.com/fvbdbpZ.png
+	Reserve: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/42/3D_Map_by_loweffortsaltbox.png/revision/latest?cb=20200410160036
+	Shoreline: https://www.slythergames.com/wp-content/uploads/2020/03/Shoreline-Maksen-Map-2020.jpg
+	Woods: https://mapgenie.io/tarkov/maps/woods
+
+Note: The formatting of this file seems to get skewed in notepad, but not in VS Code. So, I recommend opening the file in VS Code if this happens to you.
+
+bigmap:										[Customs]
+	OpenZones:
+		ZoneBlockPost:						Military Checkpoint (Nearby Transmission Line Tower)
+		ZoneBlockPostSniper:				Military Checkpoint (Gatehouse Watch Tower)
+		ZoneBlockPostSniper3:				** Does not spawn anything based on my testing! **
+		ZoneBrige:							East Side of Main Bridge
+		ZoneCrossRoad: 						Bus Terminal & Factory Shacks
+		ZoneCustoms: 						Storage, Trailer Park & Customs Building ("Big Red")
+		ZoneDormitory: 						Dorms
+		ZoneFactoryCenter: 					Warehouse 3, Warehouse 4 & Depot
+		ZoneFactorySide: 					Warehouse 7, Repair Shop, & Silos
+		ZoneGasStation: 					Gas Station
+		ZoneOldAZS: 						Old Gas Station
+		ZoneScavBase: 						Fortress, Repair House & Crack House
+		ZoneSnipeBrige: 					Building East of Warehouse 17 (On Rooftop)
+		ZoneSnipeFactory: 					Depot (On Rooftop)
+		ZoneSnipeTower: 					Tower South of Bus Terminal
+		ZoneTankSquare: 					Tankers
+		ZoneWade:							RUAF Roadblock (Nearby Extract)
+	Infiltration:
+		Boiler Tankers
+		Customs
+
+factory4_day & factory4_night:				[Factory Day/Night]
+	OpenZones:
+		BotZone:							Universal Zone for All Bots
+
+interchange:								[Interchange]
+	OpenZones:
+		ZoneCenter:							Center Area of Mall 2nd Floor (Burger House, McDaniels, Jacob & Jacob, Underway, etc.)
+		ZoneCenterBot:						Center Area of Mall 1st Floor (Spiel, EMERCOM, Kostin, Kiba, The National, etc.)
+		ZoneGoshan:							Goshan
+		ZoneIDEA:							IDEA
+		ZoneIDEAPark:						Stairway between IDEA and Parking Garage
+		ZoneOLI:							OLI
+		ZoneOLIPark:						Stairway between OLI and Parking Garage
+		ZonePowerStation:					Power Station
+		ZoneRoad:							Scav Camp
+		ZoneTrucks:							Backside of OLI (Emercom Checkpoint Side)
+
+laboratory:									[The Lab]
+	OpenZones:
+		BotZoneBasement:					Technical Level (Basement)
+		BotZoneFloor1: 						1st Level
+		BotZoneFloor2: 						2nd Level
+		BotZoneGate1:						Behind Hangar Gate
+		BotZoneGate2:						Behind Parking Gate
+
+lighthouse:									[Lighthouse]
+	OpenZones:
+		Zone_Blockpost: 					Rogue Base West Entrance (In Water Treatment and Near the Minefield)
+		Zone_Bridge:						South Side of Main Bridge (Between Construction and Lumber)
+		Zone_Chalet: 						Pikes Peak Resort
+		Zone_Containers: 					Train Yard & Shipping Containers
+		Zone_DestroyedHouse:				Beach Boat House
+		Zone_Hellicopter: 					Water Treatment Helicopter
+		Zone_Island:						Lighthouse Island
+		Zone_LongRoad:						Main Road (Below Pikes Peak Resort & Grand Chalet Tarkov Hills)
+		Zone_OldHouse: 						Old Village
+		Zone_Rocks: 						Rocks (North Side of Grand Chalet Tarkov Hills)
+		Zone_RoofBeach: 					Rogue Usec Base West (Rooftop)
+		Zone_RoofContainers:				Rogue Usec Base North (Rooftop)
+		Zone_RoofRocks: 					Rogue Usec Base East (Rooftop)
+		Zone_SniperPeak: 					Mountainside (Near Side Tunnel)
+		Zone_TreatmentBeach:				Rogue Usec Base West
+		Zone_TreatmentContainers:			Rogue Usec Base North
+		Zone_TreatmentRocks:				Rogue Usec Base East
+		Zone_Village: 						Village
+
+rezervbase:									[Reserve]
+	OpenZones:
+		ZoneBarrack: 						White Pawn, Black Pawn, and Black Bishop Barracks
+		ZoneBunkerStorage: 					Eastern Bunkers (Near White Knight Building)
+		ZonePTOR1:							Between White King, White Bishop, and Black Knight Buildings
+		ZonePTOR2:							White Knight Building
+		ZoneRailStrorage: 					Train Station and White Rook (Armored Train)	
+		ZoneSubCommand: 					Underground Bunkers (Below White Pawn, Black Pawn, and Black Bishop Barracks)
+		ZoneSubStorage: 					Underground Warehouse Bunker (Below Armored Train)
+
+shoreline:									[Shoreline]
+	OpenZones:
+		ZoneBunker: 						North Bunker
+		ZoneBunkeSniper: 					North Bunker (On Top of the Big Rock)
+		ZoneBusStation: 					Bus Terminal (Below South West Corner of Health Resort)
+		ZoneForestGasStation:				NorthWest of Gas Station (Nearby Rock & Transmission Line Tower)
+		ZoneForestSpawn: 					NorthEast of Swamp
+		ZoneForestTruck: 					Truck (North of Campsite)
+		ZoneGasStation: 					Gas Station
+		ZoneGreenHouses: 					Cottages
+		ZoneIsland: 						SCAV Island
+		ZoneMeteoStation: 					Weather Station
+		ZonePassClose: 						Road To Customs (Nearby Extract)
+		ZonePassFar: 						Scout Tower
+		ZonePort:							Pier
+		ZonePowerStation: 					Power Station
+		ZonePowerStationSniper:				Power Station (On Rooftop)
+		ZoneRailWays: 						Crane
+		ZoneSanatorium1: 					West Side of Health Resort
+		ZoneSanatorium2: 					East Side of Health Resort
+		ZoneTunnel: 						Tunnel (Nearby Extract)
+		ZoneStartVillage: 					Village
+
+tarkovstreets:								[Streets of Tarkov]
+	Openzones:
+		ZoneCarShowroom:					Between LEXOS Buildings and Teppakot
+		ZoneCinema:							Cinema (Between Primorskij Ave, Nizhnyaya Sadovava St., and Verhnyaya Sadovava St.)
+		ZoneColumn:							Primorskij 49 (Between LEXOS, Prestigio Cafe, and Sparja Express)
+		ZoneConcordia_1:					Concordia (Buildings & Underground Parking)
+		ZoneConcordia_2:					** Does not spawn anything based on my testing! **
+		ZoneConcordiaParking:				Concordia (Underground Parking)
+		ZoneConstruction:					Construction
+		ZoneFactory:						Abandoned Factory
+		ZoneHotel_1:						Pinewood Hotel (Front Entrance Near Sparja Express)
+		ZoneHotel_2:						Pinewood Hotel (Buildings Near Klimova St. & Burger Spot)
+		ZoneSnipeBuilding:					Primorskij 49 Corner (On Rooftop)
+		ZoneSnipeCarShowroom:				LEXOS Building (On Rooftop)
+		ZoneSnipeCinema:					Cinema (On Rooftop)
+		ZoneSnipeSW01:						Housing Department (On Rooftop)
+		ZoneSW01:							Housing Department
+
+woods:										[Woods]
+	OpenZones:
+		ZoneBigRocks: 						Around Cave & Lookout Rock
+		ZoneBrokenVill:						Abandoned Village
+		ZoneClearVill: 						Scav Town
+		ZoneHighRocks:						Big Rocks (West of Cave; Where Sniper Scav Spawns)
+		ZoneHouse:							Between Scave House, ZB-014, and Attachment Cabin
+		ZoneMiniHouse: 						Checkpoint
+		ZoneRedHouse:  						Between Old Station, ZB-016, & Eastern Rocks
+		ZoneRoad:							Between RUAF Roadblock, Military Camp, & Lookout Rock
+		ZoneScavBase2: 						Scav Bunker & Bridge Overlook
+		ZoneWoodCutter: 					Sawmill
