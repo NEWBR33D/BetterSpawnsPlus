@@ -1,0 +1,16 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.0",
+    "description": "Miscellaneous Settings (PreyToLive's recommended settings for BetterSpawnsPlus)",
+    
+    "enabled": true,
+
+    "launcherBackground": {
+        "replace": true,
+        "images": [
+            "eft00","eft01","eft02","eft03","eft04","eft05","eft06",
+            "eft07","eft08","eft09","eft10","eft11","eft12","eft13",
+            "eft14","eft15","eft16","eft17","eft18","eft19","eft20",
+            "eft21","eft22","eft23","eft24","eft25","eft26","eft27"
+        ]
+    }
+}
