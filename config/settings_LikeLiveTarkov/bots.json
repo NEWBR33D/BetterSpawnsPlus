@@ -13,7 +13,7 @@
 
     "brainTypes": {
         "enabled": true,
-        "randomize": true,
+        "randomize": false,
         "bear": {
             "arenaFighter": 0,
             "arenaFighterEvent": 0,
