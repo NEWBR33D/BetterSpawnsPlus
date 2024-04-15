@@ -1,0 +1,124 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Main: Template for Factory",
+    "randomize": {
+        "enabled": false,
+        "pmcs": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "scavs": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "sniperScavs": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "bosses": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "cultists": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "raiders": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "rogues": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "bloodhounds": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "weirdScavs": {
+            "difficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "spawnDelay": {
+                "min": 0,
+                "max": 0
+            }
+        }
+    },
+    "pmcs": [],
+    "scavs": [],
+    "sniperScavs": [],
+    "bosses": [],
+    "cultists": [],
+    "raiders": [],
+    "rogues": [],
+    "bloodhounds": [],
+    "weirdScavs": []
+}
