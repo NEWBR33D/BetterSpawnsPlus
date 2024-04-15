@@ -1,0 +1,158 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Settings Manager: Determines which settings are used in-game and provides some global overrides for spawn waves",
+
+    "modEnabled": true,
+    "settingsFolder": "settings_LikeLiveTarkov",
+
+    "globalOverrides": {
+        "enabled": false,
+
+        "spawnWaveChanceMultiplier": {
+            "enabled": false,
+            "pmcs": {
+                "bear": 0.9,
+                "usec": 0.9
+            },
+            "scavs": 0.8,
+            "sniperScavs": 1,
+            "bosses": 1.2,
+            "cultists": 2,
+            "raiders": 1.2,
+            "rogues": 1,
+            "bloodhounds": 1.4,
+            "weirdScavs": 1.4
+        },
+
+        "forceStopSpawnWaves": {
+            "enabled": false,
+            "pmcs": {
+                "timeInMinutes": {
+                    "customs": 30,
+                    "factory": 15,
+                    "interchange": 30,
+                    "labs": 15,
+                    "lighthouse": 30,
+                    "reserve": 30,
+                    "shoreline": 30,
+                    "streets": 30,
+                    "woods": 30
+                }
+            },
+            "scavs": {
+                "timeInMinutes": {
+                    "customs": 45,
+                    "factory": 30,
+                    "interchange": 45,
+                    "labs": 30,
+                    "lighthouse": 45,
+                    "reserve": 45,
+                    "shoreline": 45,
+                    "streets": 45,
+                    "woods": 45
+                }
+            }
+        },
+
+        "forceBotChance": {
+            "pmcs": {
+                "enabled": false,
+                "chance": 100
+            },
+            "scavs": {
+                "enabled": false,
+                "chance": 100
+            },
+            "sniperScavs": {
+                "enabled": false,
+                "chance": 100
+            },
+            "bosses": {
+                "enabled": false,
+                "chance": {
+                    "glukhar": 100,
+                    "kaban": 100,
+                    "killa": 100,
+                    "knight": 100,
+                    "kollontay": 100,
+                    "reshala": 100,
+                    "sanitar": 100,
+                    "shturman": 100,
+                    "tagilla": 100,
+                    "zryachiy": 100
+                }
+            },
+            "cultists": {
+                "enabled": false,
+                "chance": 100
+            },
+            "raiders": {
+                "enabled": false,
+                "chance": 100
+            },
+            "rogues": {
+                "enabled": false,
+                "chance": 100
+            },
+            "bloodhounds": {
+                "enabled": false,
+                "chance": 100
+            },
+            "weirdScavs": {
+                "enabled": false,
+                "chance": 100
+            }
+        },
+
+        "options": "easy, normal, hard, impossible",
+        "forceBotDifficulty": {
+            "pmcs": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "scavs": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "sniperScavs": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "bosses": {
+                "enabled": false,
+                "difficulty": {
+                    "glukhar": "normal",
+                    "kaban": "normal",
+                    "killa": "normal",
+                    "knight": "normal",
+                    "kollontay": "normal",
+                    "reshala": "normal",
+                    "sanitar": "normal",
+                    "shturman": "normal",
+                    "tagilla": "normal",
+                    "zryachiy": "normal"
+                }
+            },
+            "cultists": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "raiders": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "rogues": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "bloodhounds": {
+                "enabled": false,
+                "difficulty": "normal"
+            },
+            "weirdScavs": {
+                "enabled": false,
+                "difficulty": "normal"
+            }
+        }
+    }
+}

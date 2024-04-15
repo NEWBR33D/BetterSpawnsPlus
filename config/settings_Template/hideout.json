@@ -1,0 +1,40 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Hideout Settings (Default Template)",
+
+    "enabled": false,
+
+    "areas": {
+        "productionTimeMultiplier": 1,
+        "constructionTimeMultiplier": 1,
+        "moduleSettings": {
+            "generator": {
+                "speedWithoutFuel": 0.07,
+                "fuelFlowRate": 0.0013194444444444
+            },
+            "airFilterUnit": {
+                "flowRate": 0.0047222222222222
+            },
+            "gpu": {
+                "boostRate": 0.041225
+            }
+        }
+    },
+
+    "scavCase": {
+        "productionTimeMultiplier": 1,
+        "rewards": {
+            "ammo": {
+                "chancePercent": 10,
+                "allowMultiplePerRarity": true,
+                "minStackSize": 10
+            },
+            "money": {
+                "chancePercent": 10,
+                "allowMultiplePerRarity": false
+            },
+            "removeItemBlacklist": false,
+            "allowBossItems": false
+        }
+    }
+}

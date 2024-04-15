@@ -1,0 +1,173 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Raids Settings (Default Template)",
+    
+    "enabled": false,
+
+    "MIAOnRaidEnd": true,
+    "keepFiRSecureContainerOnDeath": false,
+
+    "lostOnDeath": {
+        "equipment": {
+            "ArmBand": false,
+            "Compass": false,
+            "Headwear": true,
+            "Earpiece": true,
+            "FaceCover": true,
+            "ArmorVest": true,
+            "Eyewear": true,
+            "TacticalVest": true,
+            "PocketItems": true,
+            "Backpack": true,
+            "Holster": true,
+            "FirstPrimaryWeapon": true,
+            "SecondPrimaryWeapon": true,
+            "Scabbard": false,
+            "SecuredContainer": false
+        },
+        "questItems": true,
+        "specialSlotItems": false
+    },
+
+    "extractions": {
+        "openAllRegardlessOfSpawnSide": false,
+        "allAlwaysAvailable": false,
+        "removeRestrictions": false
+    },
+
+    "maxBotCap": {
+        "enabled": false,
+        "customs": {
+            "min": 18,
+            "max": 18
+        },
+        "factory": {
+            "min": 12,
+            "max": 12
+        },
+        "groundzero": {
+            "min": 12,
+            "max": 12
+        },
+        "interchange": {
+            "min": 18,
+            "max": 18
+        },
+        "labs": {
+            "min": 12,
+            "max": 12
+        },
+        "lighthouse": {
+            "min": 18,
+            "max": 18
+        },
+        "reserve": {
+            "min": 18,
+            "max": 18
+        },
+        "shoreline": {
+            "min": 18,
+            "max": 18
+        },
+        "streets": {
+            "min": 18,
+            "max": 18
+        },
+        "woods": {
+            "min": 18,
+            "max": 18
+        }
+    },
+
+    "raidTimer": {
+        "enabled": false,
+        "customs": {
+            "min": 40,
+            "max": 40
+        },
+        "factory": {
+            "min": 20,
+            "max": 20
+        },
+        "groundzero": {
+            "min": 50,
+            "max": 50
+        },
+        "interchange": {
+            "min": 45,
+            "max": 45
+        },
+        "labs": {
+            "min": 35,
+            "max": 35
+        },
+        "lighthouse": {
+            "min": 40,
+            "max": 40
+        },
+        "reserve": {
+            "min": 40,
+            "max": 40
+        },
+        "shoreline": {
+            "min": 45,
+            "max": 45
+        },
+        "streets": {
+            "min": 50,
+            "max": 50
+        },
+        "woods": {
+            "min": 40,
+            "max": 40
+        }
+    },
+
+    "airdrops": {
+        "enabled": false,
+        "startTime": {
+            "min": 1,
+            "max": 5
+        },
+        "plane": {
+            "dynamic": false,
+            "speed": {
+                "min": 65,
+                "max": 65
+            },
+            "height": {
+                "min": 400,
+                "max": 500
+            },
+            "volume": {
+                "min": 50,
+                "max": 50
+            },
+            "crate": {
+                "speed": {
+                    "min": 3,
+                    "max": 3
+                },
+                "items": {
+                    "min": 12,
+                    "max": 25
+                }
+            }
+        },
+        "chance": {
+            "customs": 25,
+            "groundzero": 25,
+            "interchange": 20,
+            "lighthouse": 20,
+            "reserve": 20,
+            "shoreline": 20,
+            "streets": 20,
+            "woods": 25
+        }
+    },
+
+    "weather": {
+        "dayNightAcceleration": 7,
+        "forceSnowWeather": false
+    }
+}

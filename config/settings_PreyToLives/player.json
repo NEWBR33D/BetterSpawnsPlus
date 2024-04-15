@@ -1,0 +1,27 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Player Settings (PreyToLive's recommended settings for BetterSpawnsPlus)",
+    
+    "enabled": true,
+
+    "playerHealth": {
+        "healthInRaid": {
+            "enabled": true,
+            "energyLoopTimeInMinutes": 1,
+            "energyDecreaseAmountPerLoopTime": 1.6,
+            "hydrationLoopTimeInMinutes": 1,
+            "hydrationDecreaseAmountPerLoopTime": 1.3
+        },
+        "healthInHideout": {
+            "enabled": true,
+            "removeFreeHealTrialLevelsAndRaids": true,
+            "healthRegenerationMultiplier": 5,
+            "energyRegenerationLoopTimeInMinutes": 3,
+            "hydrationRegenerationLoopTimeInMinutes": 3
+        }
+    },
+
+    "playerScav": {
+        "cooldownTimer": 12
+    }
+}

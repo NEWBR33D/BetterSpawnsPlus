@@ -1,0 +1,78 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Bots Settings (LikeLiveTarkov)",
+    
+    "enabled": true,
+
+    "pmc": {
+        "useCustomDogTags": true,
+        "disableRandomPmcDialogue": true,
+        "hostileFactionChance": 80,
+        "botLevelOffset": 10
+    },
+
+    "brainTypes": {
+        "enabled": true,
+        "randomize": false,
+        "bear": {
+            "arenaFighter": 0,
+            "arenaFighterEvent": 0,
+            "assault": 4,
+            "bossBoar": 1,
+            "bossGluhar": 1,
+            "bossKilla": 4,
+            "bossKnight": 3,
+            "bossSanitar": 5,
+            "bossTagilla": 1,
+            "bossZryachiy": 0,
+            "crazyAssaultEvent": 2,
+            "cursedAssault": 2,
+            "exUsec": 2,
+            "followerBigPipe": 4,
+            "followerBully": 1,
+            "followerGluharAssault": 1,
+            "followerSanitar": 1,
+            "pmcBot": 5
+        },
+        "usec": {
+            "arenaFighter": 0,
+            "arenaFighterEvent": 0,
+            "assault": 4,
+            "bossBoar": 1,
+            "bossGluhar": 1,
+            "bossKilla": 4,
+            "bossKnight": 3,
+            "bossSanitar": 5,
+            "bossTagilla": 1,
+            "bossZryachiy": 0,
+            "crazyAssaultEvent": 2,
+            "cursedAssault": 2,
+            "exUsec": 2,
+            "followerBigPipe": 4,
+            "followerBully": 1,
+            "followerGluharAssault": 1,
+            "followerSanitar": 1,
+            "pmcBot": 5
+        },
+        "scav": {
+            "arenaFighter": 0,
+            "arenaFighterEvent": 0,
+            "assault": 1,
+            "bossBoar": 0,
+            "bossGluhar": 0,
+            "bossKilla": 0,
+            "bossKnight": 0,
+            "bossSanitar": 0,
+            "bossTagilla": 0,
+            "bossZryachiy": 0,
+            "crazyAssaultEvent": 0,
+            "cursedAssault": 0,
+            "exUsec": 0,
+            "followerBigPipe": 0,
+            "followerBully": 0,
+            "followerGluharAssault": 0,
+            "followerSanitar": 0,
+            "pmcBot": 0
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Loot Settings (PreyToLive's recommended settings for BetterSpawnsPlus)",
+    
+    "enabled": true,
+
+    "customs": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.8,
+            "looseLootMultiplier": 3.1,
+            "staticLootMultiplier": 1
+        }
+    },
+    
+    "factory": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.2,
+            "looseLootMultiplier": 4,
+            "staticLootMultiplier": 1
+        }
+    },
+
+    "groundzero": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.6,
+            "looseLootMultiplier": 2.8,
+            "staticLootMultiplier": 1
+        }
+    },
+
+    "interchange": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.64,
+            "looseLootMultiplier": 3.5,
+            "staticLootMultiplier": 1
+        }
+    },
+
+    "labs": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.65,
+            "looseLootMultiplier": 3,
+            "staticLootMultiplier": 1
+        }
+    },
+
+    "lighthouse": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.17,
+            "looseLootMultiplier": 3.6,
+            "staticLootMultiplier": 1
+        }
+    },
+
+    "reserve": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.33,
+            "looseLootMultiplier": 3.7,
+            "staticLootMultiplier": 1
+        }
+    },
+
+    "shoreline": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.3,
+            "looseLootMultiplier": 4.5,
+            "staticLootMultiplier": 1
+        }
+    },
+
+    "streets": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.35,
+            "looseLootMultiplier": 3.6,
+            "staticLootMultiplier": 1
+        }
+    },
+
+    "woods": {
+        "containers": {
+            "containerRandomization": true,
+            "globalContainerChanceModifier": 1
+        },
+        "loot": {
+            "globalLootChanceModifier": 0.9,
+            "looseLootMultiplier": 2.4,
+            "staticLootMultiplier": 1
+        }
+    }
+}

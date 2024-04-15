@@ -1,0 +1,266 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Locations Settings (PreyToLive's recommended settings for BetterSpawnsPlus)",
+    
+    "enabled": true,
+    
+    "customs": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_CUSTOMS_LIKELIVETARKOV_1": 1,
+                "MAIN_PRESET_CUSTOMS_LIKELIVETARKOV_2": 1
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_CUSTOMS_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_CUSTOMS_ADDON_BOSSES": 1,
+                "SG_PRESET_CUSTOMS_ADDON_CULTISTS": 1,
+                "SG_PRESET_CUSTOMS_ADDON_RAIDERS": 1,
+                "SG_PRESET_CUSTOMS_ADDON_ROGUES": 1,
+                "SG_PRESET_CUSTOMS_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_CUSTOMS_EVENT_MEETING_OF_THE_BOSSES": 1,
+                "SG_PRESET_CUSTOMS_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_CUSTOMS_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_CUSTOMS_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "factory": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_FACTORY_LIKELIVETARKOV_1": 3,
+                "MAIN_PRESET_FACTORY_LIKELIVETARKOV_2": 3
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_FACTORY_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_FACTORY_ADDON_BOSSES": 1,
+                "SG_PRESET_FACTORY_ADDON_CULTISTS": 1,
+                "SG_PRESET_FACTORY_ADDON_RAIDERS": 1,
+                "SG_PRESET_FACTORY_ADDON_ROGUES": 1,
+                "SG_PRESET_FACTORY_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_FACTORY_EVENT_THE_NOTORIOUS_SAVAGES": 1,
+                "SG_PRESET_FACTORY_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_FACTORY_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_FACTORY_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "groundzero": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_GROUNDZERO_LIKELIVETARKOV_1": 1,
+                "MAIN_PRESET_GROUNDZERO_LIKELIVETARKOV_2": 1
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_GROUNDZERO_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_GROUNDZERO_ADDON_BOSSES": 1,
+                "SG_PRESET_GROUNDZERO_ADDON_CULTISTS": 1,
+                "SG_PRESET_GROUNDZERO_ADDON_RAIDERS": 1,
+                "SG_PRESET_GROUNDZERO_ADDON_ROGUES": 1,
+                "SG_PRESET_GROUNDZERO_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_GROUNDZERO_EVENT_THE_LAST_RAID": 1,
+                "SG_PRESET_GROUNDZERO_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_GROUNDZERO_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_GROUNDZERO_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "interchange": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_INTERCHANGE_LIKELIVETARKOV_1": 3,
+                "MAIN_PRESET_INTERCHANGE_LIKELIVETARKOV_2": 3
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_INTERCHANGE_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_INTERCHANGE_ADDON_BOSSES": 1,
+                "SG_PRESET_INTERCHANGE_ADDON_CULTISTS": 1,
+                "SG_PRESET_INTERCHANGE_ADDON_RAIDERS": 1,
+                "SG_PRESET_INTERCHANGE_ADDON_ROGUES": 1,
+                "SG_PRESET_INTERCHANGE_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_INTERCHANGE_EVENT_MEETING_OF_THE_BOSSES": 1,
+                "SG_PRESET_INTERCHANGE_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_INTERCHANGE_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_INTERCHANGE_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "labs": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_LABS_LIKELIVETARKOV_1": 1,
+                "MAIN_PRESET_LABS_LIKELIVETARKOV_2": 1
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_LABS_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_LABS_ADDON_BOSSES": 1,
+                "SG_PRESET_LABS_ADDON_CULTISTS": 1,
+                "SG_PRESET_LABS_ADDON_RAIDERS": 1,
+                "SG_PRESET_LABS_ADDON_ROGUES": 1,
+                "SG_PRESET_LABS_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_LABS_EVENT_A_COLD_CASE": 1,
+                "SG_PRESET_LABS_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_LABS_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_LABS_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "lighthouse": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_LIGHTHOUSE_LIKELIVETARKOV_1": 1,
+                "MAIN_PRESET_LIGHTHOUSE_LIKELIVETARKOV_2": 1
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_LIGHTHOUSE_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_LIGHTHOUSE_ADDON_BOSSES": 1,
+                "SG_PRESET_LIGHTHOUSE_ADDON_CULTISTS": 1,
+                "SG_PRESET_LIGHTHOUSE_ADDON_RAIDERS": 1,
+                "SG_PRESET_LIGHTHOUSE_ADDON_ROGUES": 1,
+                "SG_PRESET_LIGHTHOUSE_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_LIGHTHOUSE_EVENT_ROGUE_SURVEILLANCE": 1,
+                "SG_PRESET_LIGHTHOUSE_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_LIGHTHOUSE_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_LIGHTHOUSE_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "reserve": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_RESERVE_LIKELIVETARKOV_1": 1,
+                "MAIN_PRESET_RESERVE_LIKELIVETARKOV_2": 1
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_RESERVE_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_RESERVE_ADDON_BOSSES": 1,
+                "SG_PRESET_RESERVE_ADDON_CULTISTS": 1,
+                "SG_PRESET_RESERVE_ADDON_RAIDERS": 1,
+                "SG_PRESET_RESERVE_ADDON_ROGUES": 1,
+                "SG_PRESET_RESERVE_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_RESERVE_EVENT_RAIDER_ONSLAUGHT": 1,
+                "SG_PRESET_RESERVE_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_RESERVE_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_RESERVE_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "shoreline": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_SHORELINE_LIKELIVETARKOV_1": 1,
+                "MAIN_PRESET_SHORELINE_LIKELIVETARKOV_2": 1
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_SHORELINE_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_SHORELINE_ADDON_BOSSES": 1,
+                "SG_PRESET_SHORELINE_ADDON_CULTISTS": 1,
+                "SG_PRESET_SHORELINE_ADDON_RAIDERS": 1,
+                "SG_PRESET_SHORELINE_ADDON_ROGUES": 1,
+                "SG_PRESET_SHORELINE_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_SHORELINE_EVENT_THE_SCIENTISTS_BRIGADE": 1,
+                "SG_PRESET_SHORELINE_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_SHORELINE_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_SHORELINE_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "streets": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_STREETS_LIKELIVETARKOV_1": 1,
+                "MAIN_PRESET_STREETS_LIKELIVETARKOV_2": 1
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_STREETS_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_STREETS_ADDON_BOSSES": 1,
+                "SG_PRESET_STREETS_ADDON_CULTISTS": 1,
+                "SG_PRESET_STREETS_ADDON_RAIDERS": 1,
+                "SG_PRESET_STREETS_ADDON_ROGUES": 1,
+                "SG_PRESET_STREETS_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_STREETS_EVENT_MEETING_OF_THE_BOSSES": 1,
+                "SG_PRESET_STREETS_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_STREETS_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_STREETS_LIKELIVETARKOV_3": 5
+            }
+        }
+    },
+
+    "woods": {
+        "main": {
+            "enabled": true,
+            "enableBosses": true,
+            "presets": {
+                "MAIN_PRESET_WOODS_LIKELIVETARKOV_1": 1,
+                "MAIN_PRESET_WOODS_LIKELIVETARKOV_2": 1
+            }
+        },
+        "spawnGenerator": {
+            "enabled": true,
+            "presets": {
+                "SG_PRESET_WOODS_ADDON_BLOODHOUNDS": 1,
+                "SG_PRESET_WOODS_ADDON_BOSSES": 1,
+                "SG_PRESET_WOODS_ADDON_CULTISTS": 1,
+                "SG_PRESET_WOODS_ADDON_RAIDERS": 1,
+                "SG_PRESET_WOODS_ADDON_ROGUES": 1,
+                "SG_PRESET_WOODS_ADDON_WEIRDSCAVS": 1,
+                "SG_PRESET_WOODS_EVENT_THE_HUNTSMANS_GATHERING": 1,
+                "SG_PRESET_WOODS_LIKELIVETARKOV_1": 5,
+                "SG_PRESET_WOODS_LIKELIVETARKOV_2": 5,
+                "SG_PRESET_WOODS_LIKELIVETARKOV_3": 5
+            }
+        }
+    }
+}

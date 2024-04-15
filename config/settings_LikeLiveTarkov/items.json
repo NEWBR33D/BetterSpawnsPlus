@@ -1,0 +1,28 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Items Settings (LikeLiveTarkov)",
+
+    "enabled": false,
+
+    "allowAllItemsToBelootable": false,
+    "allItemsUnexaminedByDefault": false,
+    "allowInsuranceOnAllLocations": false,
+    "allowInsuranceForAllItems": false,
+
+    "armor": {
+        "preventArmorDegradationFromRepairs": false
+    },
+
+    "weapons": {
+        "preventWeaponDegradationFromRepairs": false,
+        "preventWeaponDeteriorationFromBullets": false,
+        "preventWeaponDurabilityBurn": false
+    },
+
+    "keys": {
+        "labsAccessKeycard": {
+            "removeLabsRequirement": false,
+            "maxNumberOfUses": 1
+        }
+    }
+}

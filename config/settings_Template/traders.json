@@ -1,0 +1,109 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Traders Settings (Default Template)",
+
+    "enabled": false,
+
+    "traderPurchasesFiR": false,
+    "traderPurchasesMultiplier": 1,
+
+    "traderRepairRandomDurabilityLoss": true,
+    "traderRepairPriceMultiplier": 1,
+
+    "prapor": {
+        "stockUpdateInMinutes": {
+            "min": 117,
+            "max": 225
+        },
+        "insurance": {
+            "priceMultiplier": 0.16,
+            "returnChancePercent": 75,
+            "returnTimeInHours": {
+                "min": 24,
+                "max": 36
+            },
+            "storageTimeInHours": 96 
+        },
+        "repairs": {
+            "qualityDegradation": 1.2
+        }
+    },
+
+    "therapist": {
+        "stockUpdateInMinutes": {
+            "min": 50,
+            "max": 159
+        },
+        "insurance": {
+            "priceMultiplier": 0.25,
+            "returnChancePercent": 85,
+            "returnTimeInHours": {
+                "min": 10,
+                "max": 20
+            },
+            "storageTimeInHours": 144
+        }
+    },
+
+    "fence": {
+        "stockUpdateInMinutes": {
+            "min": 50,
+            "max": 150
+        },
+        "blacklistSeasonalItems": true,
+        "itemAmount": 140,
+        "weaponDurabilityPercent": {
+            "min": 40,
+            "max": 100
+        },
+        "armorDurabilityPercent": {
+            "min": 50,
+            "max": 100
+        }
+    },
+
+    "skier": {
+        "stockUpdateInMinutes": {
+            "min": 84,
+            "max": 150
+        },
+        "repairs": {
+            "qualityDegradation": 1
+        }
+    },
+
+    "peacekeeper": {
+        "stockUpdateInMinutes": {
+            "min": 34,
+            "max": 250
+        }
+    },
+
+    "mechanic": {
+        "stockUpdateInMinutes": {
+            "min": 109,
+            "max": 225
+        },
+        "repairs": {
+            "qualityDegradation": 0.7
+        }
+    },
+
+    "ragman": {
+        "stockUpdateInMinutes": {
+            "min": 109,
+            "max": 250
+        },
+        "services": {
+            "unlockAllClothingForBothFactions": false,
+            "unlockAllClothingForFree": false
+        }
+    },
+
+    "jaeger": {
+        "stockUpdateInMinutes": {
+            "min": 34,
+            "max": 92
+        }
+    }
+}

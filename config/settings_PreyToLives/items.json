@@ -1,0 +1,28 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Items Settings (PreyToLive's recommended settings for BetterSpawnsPlus)",
+
+    "enabled": true,
+
+    "allowAllItemsToBelootable": true,
+    "allItemsUnexaminedByDefault": true,
+    "allowInsuranceOnAllLocations": true,
+    "allowInsuranceForAllItems": true,
+
+    "armor": {
+        "preventArmorDegradationFromRepairs": false
+    },
+
+    "weapons": {
+        "preventWeaponDegradationFromRepairs": false,
+        "preventWeaponDeteriorationFromBullets": true,
+        "preventWeaponDurabilityBurn": true
+    },
+
+    "keys": {
+        "labsAccessKeycard": {
+            "removeLabsRequirement": false,
+            "maxNumberOfUses": 3
+        }
+    }
+}
