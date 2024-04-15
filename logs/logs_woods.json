@@ -1,0 +1,22 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Logs: Woods",
+
+    "raidTimer": 0,
+    "maxBotCap": 0,
+    "mainPreset": "",
+    "sgPreset": "",
+    "total": {
+        "bear": 0,
+        "usec": 0,
+        "scav": 0,
+        "sniperScav": 0,
+        "boss": 0,
+        "cultist": 0,
+        "raider": 0,
+        "rogue": 0,
+        "bloodhound": 0,
+        "weirdScav": 0
+    },
+    "spawnWaves": []
+}
