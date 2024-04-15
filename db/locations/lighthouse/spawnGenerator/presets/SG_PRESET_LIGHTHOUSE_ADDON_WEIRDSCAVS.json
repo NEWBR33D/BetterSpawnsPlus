@@ -1,0 +1,463 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Spawn Generator: Adds one random weird scav spawn wave to the main preset for Lighthouse",
+    "enableMainPresets": true,
+    "lighthouse": {
+        "pmcs": {
+            "enabled": false,
+            "botType": {
+                "bear": 0,
+                "usec": 0
+            },
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 0,
+                "Zone_Chalet": 0,
+                "Zone_Containers": 0,
+                "Zone_DestroyedHouse": 0,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 0,
+                "Zone_OldHouse": 0,
+                "Zone_Rocks": 0,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 0
+            }
+        },
+        "scavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 0,
+                "Zone_Chalet": 0,
+                "Zone_Containers": 0,
+                "Zone_DestroyedHouse": 0,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 0,
+                "Zone_OldHouse": 0,
+                "Zone_Rocks": 0,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 0
+            }
+        },
+        "sniperScavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 0,
+                "Zone_Chalet": 0,
+                "Zone_Containers": 0,
+                "Zone_DestroyedHouse": 0,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 0,
+                "Zone_OldHouse": 0,
+                "Zone_Rocks": 0,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 0
+            }
+        },
+        "bosses": {
+            "enabled": false,
+            "botType": {
+                "glukhar": 0,
+                "kaban": 0,
+                "killa": 0,
+                "knight": 0,
+                "reshala": 0,
+                "sanitar": 0,
+                "shturman": 0,
+                "tagilla": 0,
+                "zryachiy": 0
+            },
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "onlyVanillaOpenZones": false,
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 0,
+                "Zone_Chalet": 0,
+                "Zone_Containers": 0,
+                "Zone_DestroyedHouse": 0,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 0,
+                "Zone_OldHouse": 0,
+                "Zone_Rocks": 0,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 0
+            }
+        },
+        "cultists": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 0,
+                "Zone_Chalet": 0,
+                "Zone_Containers": 0,
+                "Zone_DestroyedHouse": 0,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 0,
+                "Zone_OldHouse": 0,
+                "Zone_Rocks": 0,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 0
+            }
+        },
+        "raiders": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 0,
+                "Zone_Chalet": 0,
+                "Zone_Containers": 0,
+                "Zone_DestroyedHouse": 0,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 0,
+                "Zone_OldHouse": 0,
+                "Zone_Rocks": 0,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 0
+            }
+        },
+        "rogues": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 0,
+                "Zone_Chalet": 0,
+                "Zone_Containers": 0,
+                "Zone_DestroyedHouse": 0,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 0,
+                "Zone_OldHouse": 0,
+                "Zone_Rocks": 0,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 0
+            }
+        },
+        "bloodhounds": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 0,
+                "Zone_Chalet": 0,
+                "Zone_Containers": 0,
+                "Zone_DestroyedHouse": 0,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 0,
+                "Zone_OldHouse": 0,
+                "Zone_Rocks": 0,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 0
+            }
+        },
+        "weirdScavs": {
+            "enabled": true,
+            "botDifficulty": {
+                "easy": 3,
+                "normal": 5,
+                "hard": 1,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 15,
+                "max": 45
+            },
+            "botAmountPerSpawnWave": [2,2,2,3],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 1,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 120
+                }
+            },
+            "openZones": {
+                "Zone_Blockpost": 0,
+                "Zone_Bridge": 1,
+                "Zone_Chalet": 1,
+                "Zone_Containers": 1,
+                "Zone_DestroyedHouse": 1,
+                "Zone_Hellicopter": 0,
+                "Zone_Island": 0,
+                "Zone_LongRoad": 1,
+                "Zone_OldHouse": 1,
+                "Zone_Rocks": 1,
+                "Zone_RoofBeach": 0,
+                "Zone_RoofContainers": 0,
+                "Zone_RoofRocks": 0,
+                "Zone_SniperPeak": 0,
+                "Zone_TreatmentBeach": 0,
+                "Zone_TreatmentContainers": 0,
+                "Zone_TreatmentRocks": 0,
+                "Zone_Village": 1
+            }
+        }
+    }
+}

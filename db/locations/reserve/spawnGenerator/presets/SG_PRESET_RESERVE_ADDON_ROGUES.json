@@ -1,0 +1,370 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Spawn Generator: Adds one random rogue spawn wave to the main preset for Reserve",
+    "enableMainPresets": true,
+    "reserve": {
+        "pmcs": {
+            "enabled": false,
+            "botType": {
+                "bear": 0,
+                "usec": 0
+            },
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBarrack": 0,
+                "ZoneBunkerStorage": 0,
+                "ZonePTOR1": 0,
+                "ZonePTOR2": 0,
+                "ZoneRailStrorage": 0,
+                "ZoneSubCommand": 0,
+                "ZoneSubStorage": 0
+            }
+        },
+        "scavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBarrack": 0,
+                "ZoneBunkerStorage": 0,
+                "ZonePTOR1": 0,
+                "ZonePTOR2": 0,
+                "ZoneRailStrorage": 0,
+                "ZoneSubCommand": 0,
+                "ZoneSubStorage": 0
+            }
+        },
+        "sniperScavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBarrack": 0,
+                "ZoneBunkerStorage": 0,
+                "ZonePTOR1": 0,
+                "ZonePTOR2": 0,
+                "ZoneRailStrorage": 0,
+                "ZoneSubCommand": 0,
+                "ZoneSubStorage": 0
+            }
+        },
+        "bosses": {
+            "enabled": false,
+            "botType": {
+                "glukhar": 0,
+                "kaban": 0,
+                "killa": 0,
+                "knight": 0,
+                "reshala": 0,
+                "sanitar": 0,
+                "shturman": 0,
+                "tagilla": 0,
+                "zryachiy": 0
+            },
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "onlyVanillaOpenZones": false,
+            "openZones": {
+                "ZoneBarrack": 0,
+                "ZoneBunkerStorage": 0,
+                "ZonePTOR1": 0,
+                "ZonePTOR2": 0,
+                "ZoneRailStrorage": 0,
+                "ZoneSubCommand": 0,
+                "ZoneSubStorage": 0
+            }
+        },
+        "cultists": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBarrack": 0,
+                "ZoneBunkerStorage": 0,
+                "ZonePTOR1": 0,
+                "ZonePTOR2": 0,
+                "ZoneRailStrorage": 0,
+                "ZoneSubCommand": 0,
+                "ZoneSubStorage": 0
+            }
+        },
+        "raiders": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "triggers": {
+                "autoId_00632_EXFIL": 0,
+                "autoId_00000_D2_LEVER": 0,
+                "raider_simple_patroling": 0
+            },
+            "onlyVanillaOpenZones": false,
+            "openZones": {
+                "ZoneBarrack": 0,
+                "ZoneBunkerStorage": 0,
+                "ZonePTOR1": 0,
+                "ZonePTOR2": 0,
+                "ZoneRailStrorage": 0,
+                "ZoneSubCommand": 0,
+                "ZoneSubStorage": 0
+            }
+        },
+        "rogues": {
+            "enabled": true,
+            "botDifficulty": {
+                "easy": 3,
+                "normal": 5,
+                "hard": 1,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 15,
+                "max": 45
+            },
+            "botAmountPerSpawnWave": [2,2,2,3],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 1,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 120
+                }
+            },
+            "openZones": {
+                "ZoneBarrack": 1,
+                "ZoneBunkerStorage": 1,
+                "ZonePTOR1": 1,
+                "ZonePTOR2": 1,
+                "ZoneRailStrorage": 1,
+                "ZoneSubCommand": 1,
+                "ZoneSubStorage": 1
+            }
+        },
+        "bloodhounds": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBarrack": 0,
+                "ZoneBunkerStorage": 0,
+                "ZonePTOR1": 0,
+                "ZonePTOR2": 0,
+                "ZoneRailStrorage": 0,
+                "ZoneSubCommand": 0,
+                "ZoneSubStorage": 0
+            }
+        },
+        "weirdScavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBarrack": 0,
+                "ZoneBunkerStorage": 0,
+                "ZonePTOR1": 0,
+                "ZonePTOR2": 0,
+                "ZoneRailStrorage": 0,
+                "ZoneSubCommand": 0,
+                "ZoneSubStorage": 0
+            }
+        }
+    }
+}
