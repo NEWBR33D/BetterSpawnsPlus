@@ -1,0 +1,473 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Spawn Generator: Like-Live-Tarkov-2 spawns for Streets Of Tarkov",
+    "enableMainPresets": false,
+    "streets": {
+        "pmcs": {
+            "enabled": true,
+            "botType": {
+                "bear": 1,
+                "usec": 1
+            },
+            "botDifficulty": {
+                "easy": 3,
+                "normal": 5,
+                "hard": 1,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 70,
+                "max": 80
+            },
+            "botAmountPerSpawnWave": [1,1,1,1,1,1,2,2],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 15,
+                    "time": 30
+                },
+                "interval": {
+                    "waves": 6,
+                    "wavesPerInterval": 2,
+                    "time": 900
+                },
+                "spawnDelay": {
+                    "min": -120,
+                    "max": 60
+                }
+            },
+            "openZones": {
+                "ZoneCard1": 1,
+                "ZoneCarShowroom": 1,
+                "ZoneCinema": 1,
+                "ZoneClimova": 1,
+                "ZoneColumn": 1,
+                "ZoneConcordia_1": 1,
+                "ZoneConcordiaParking": 1,
+                "ZoneConstruction": 1,
+                "ZoneFactory": 1,
+                "ZoneHotel_1": 1,
+                "ZoneHotel_2": 1,
+                "ZoneMvd": 1,
+                "ZoneSnipeBuilding": 0,
+                "ZoneSnipeCarShowroom": 0,
+                "ZoneSnipeCinema": 0,
+                "ZoneSnipeSW01": 0,
+                "ZoneStilo": 1,
+                "ZoneSW00": 1,
+                "ZoneSW01": 1
+            }
+        },
+        "scavs": {
+            "enabled": true,
+            "botDifficulty": {
+                "easy": 3,
+                "normal": 5,
+                "hard": 1,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 60,
+                "max": 90
+            },
+            "botAmountPerSpawnWave": [1,1,1,1,1,1,2,2,2,3],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 8,
+                    "time": 60
+                },
+                "interval": {
+                    "waves": 27,
+                    "wavesPerInterval": 3,
+                    "time": 360
+                },
+                "spawnDelay": {
+                    "min": -60,
+                    "max": 60
+                }
+            },
+            "openZones": {
+                "ZoneCard1": 1,
+                "ZoneCarShowroom": 0,
+                "ZoneCinema": 1,
+                "ZoneClimova": 1,
+                "ZoneColumn": 1,
+                "ZoneConcordia_1": 1,
+                "ZoneConcordiaParking": 1,
+                "ZoneConstruction": 1,
+                "ZoneFactory": 1,
+                "ZoneHotel_1": 1,
+                "ZoneHotel_2": 1,
+                "ZoneMvd": 1,
+                "ZoneSnipeBuilding": 0,
+                "ZoneSnipeCarShowroom": 0,
+                "ZoneSnipeCinema": 0,
+                "ZoneSnipeSW01": 0,
+                "ZoneStilo": 1,
+                "ZoneSW00": 1,
+                "ZoneSW01": 1
+            }
+        },
+        "sniperScavs": {
+            "enabled": true,
+            "botDifficulty": {
+                "easy": 3,
+                "normal": 5,
+                "hard": 1,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 65,
+                "max": 75
+            },
+            "botAmountPerSpawnWave": [1],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 4,
+                    "time": 120
+                },
+                "interval": {
+                    "waves": 4,
+                    "wavesPerInterval": 4,
+                    "time": 1820
+                },
+                "spawnDelay": {
+                    "min": -120,
+                    "max": 120
+                }
+            },
+            "openZones": {
+                "ZoneCard1": 0,
+                "ZoneCarShowroom": 0,
+                "ZoneCinema": 0,
+                "ZoneClimova": 0,
+                "ZoneColumn": 0,
+                "ZoneConcordia_1": 0,
+                "ZoneConcordiaParking": 0,
+                "ZoneConstruction": 0,
+                "ZoneFactory": 0,
+                "ZoneHotel_1": 0,
+                "ZoneHotel_2": 0,
+                "ZoneMvd": 0,
+                "ZoneSnipeBuilding": 1,
+                "ZoneSnipeCarShowroom": 1,
+                "ZoneSnipeCinema": 1,
+                "ZoneSnipeSW01": 1,
+                "ZoneStilo": 0,
+                "ZoneSW00": 0,
+                "ZoneSW01": 0
+            }
+        },
+        "bosses": {
+            "enabled": true,
+            "botType": {
+                "glukhar": 0,
+                "kaban": 1,
+                "killa": 0,
+                "knight": 0,
+                "kollontay": 1,
+                "reshala": 0,
+                "sanitar": 0,
+                "shturman": 0,
+                "tagilla": 0,
+                "zryachiy": 0
+            },
+            "botDifficulty": {
+                "easy": 3,
+                "normal": 5,
+                "hard": 1,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 5,
+                "max": 10
+            },
+            "spawnWaves": {
+                "initial": {
+                    "waves": 2,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "onlyVanillaOpenZones": true,
+            "openZones": {
+                "ZoneCard1": 0,
+                "ZoneCarShowroom": 1,
+                "ZoneCinema": 0,
+                "ZoneClimova": 1,
+                "ZoneColumn": 0,
+                "ZoneConcordia_1": 0,
+                "ZoneConcordiaParking": 0,
+                "ZoneConstruction": 0,
+                "ZoneFactory": 0,
+                "ZoneHotel_1": 0,
+                "ZoneHotel_2": 0,
+                "ZoneMvd": 1,
+                "ZoneSnipeBuilding": 0,
+                "ZoneSnipeCarShowroom": 0,
+                "ZoneSnipeCinema": 0,
+                "ZoneSnipeSW01": 0,
+                "ZoneStilo": 0,
+                "ZoneSW00": 0,
+                "ZoneSW01": 0
+            }
+        },
+        "cultists": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneCard1": 0,
+                "ZoneCarShowroom": 0,
+                "ZoneCinema": 0,
+                "ZoneClimova": 0,
+                "ZoneColumn": 0,
+                "ZoneConcordia_1": 0,
+                "ZoneConcordiaParking": 0,
+                "ZoneConstruction": 0,
+                "ZoneFactory": 0,
+                "ZoneHotel_1": 0,
+                "ZoneHotel_2": 0,
+                "ZoneMvd": 0,
+                "ZoneSnipeBuilding": 0,
+                "ZoneSnipeCarShowroom": 0,
+                "ZoneSnipeCinema": 0,
+                "ZoneSnipeSW01": 0,
+                "ZoneStilo": 0,
+                "ZoneSW00": 0,
+                "ZoneSW01": 0
+            }
+        },
+        "raiders": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneCard1": 0,
+                "ZoneCarShowroom": 0,
+                "ZoneCinema": 0,
+                "ZoneClimova": 0,
+                "ZoneColumn": 0,
+                "ZoneConcordia_1": 0,
+                "ZoneConcordiaParking": 0,
+                "ZoneConstruction": 0,
+                "ZoneFactory": 0,
+                "ZoneHotel_1": 0,
+                "ZoneHotel_2": 0,
+                "ZoneMvd": 0,
+                "ZoneSnipeBuilding": 0,
+                "ZoneSnipeCarShowroom": 0,
+                "ZoneSnipeCinema": 0,
+                "ZoneSnipeSW01": 0,
+                "ZoneStilo": 0,
+                "ZoneSW00": 0,
+                "ZoneSW01": 0
+            }
+        },
+        "rogues": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneCard1": 0,
+                "ZoneCarShowroom": 0,
+                "ZoneCinema": 0,
+                "ZoneClimova": 0,
+                "ZoneColumn": 0,
+                "ZoneConcordia_1": 0,
+                "ZoneConcordiaParking": 0,
+                "ZoneConstruction": 0,
+                "ZoneFactory": 0,
+                "ZoneHotel_1": 0,
+                "ZoneHotel_2": 0,
+                "ZoneMvd": 0,
+                "ZoneSnipeBuilding": 0,
+                "ZoneSnipeCarShowroom": 0,
+                "ZoneSnipeCinema": 0,
+                "ZoneSnipeSW01": 0,
+                "ZoneStilo": 0,
+                "ZoneSW00": 0,
+                "ZoneSW01": 0
+            }
+        },
+        "bloodhounds": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneCard1": 0,
+                "ZoneCarShowroom": 0,
+                "ZoneCinema": 0,
+                "ZoneClimova": 0,
+                "ZoneColumn": 0,
+                "ZoneConcordia_1": 0,
+                "ZoneConcordiaParking": 0,
+                "ZoneConstruction": 0,
+                "ZoneFactory": 0,
+                "ZoneHotel_1": 0,
+                "ZoneHotel_2": 0,
+                "ZoneMvd": 0,
+                "ZoneSnipeBuilding": 0,
+                "ZoneSnipeCarShowroom": 0,
+                "ZoneSnipeCinema": 0,
+                "ZoneSnipeSW01": 0,
+                "ZoneStilo": 0,
+                "ZoneSW00": 0,
+                "ZoneSW01": 0
+            }
+        },
+        "weirdScavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneCard1": 0,
+                "ZoneCarShowroom": 0,
+                "ZoneCinema": 0,
+                "ZoneClimova": 0,
+                "ZoneColumn": 0,
+                "ZoneConcordia_1": 0,
+                "ZoneConcordiaParking": 0,
+                "ZoneConstruction": 0,
+                "ZoneFactory": 0,
+                "ZoneHotel_1": 0,
+                "ZoneHotel_2": 0,
+                "ZoneMvd": 0,
+                "ZoneSnipeBuilding": 0,
+                "ZoneSnipeCarShowroom": 0,
+                "ZoneSnipeCinema": 0,
+                "ZoneSnipeSW01": 0,
+                "ZoneStilo": 0,
+                "ZoneSW00": 0,
+                "ZoneSW01": 0
+            }
+        }
+    }
+}

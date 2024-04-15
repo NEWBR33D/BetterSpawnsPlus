@@ -1,0 +1,491 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Spawn Generator: Adds one random raider spawn wave to the main preset for Shoreline",
+    "enableMainPresets": true,
+    "shoreline": {
+        "pmcs": {
+            "enabled": false,
+            "botType": {
+                "bear": 0,
+                "usec": 0
+            },
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBunker": 0,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 0,
+                "ZoneForestGasStation": 0,
+                "ZoneForestSpawn": 0,
+                "ZoneForestTruck": 0,
+                "ZoneGasStation": 0,
+                "ZoneGreenHouses": 0,
+                "ZoneIsland": 0,
+                "ZoneMeteoStation": 0,
+                "ZonePassClose": 0,
+                "ZonePassFar": 0,
+                "ZonePort": 0,
+                "ZonePowerStation": 0,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 0,
+                "ZoneSanatorium1": 0,
+                "ZoneSanatorium2": 0,
+                "ZoneSmuglers": 0,
+                "ZoneStartVillage": 0,
+                "ZoneTunnel": 0
+            }
+        },
+        "scavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBunker": 0,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 0,
+                "ZoneForestGasStation": 0,
+                "ZoneForestSpawn": 0,
+                "ZoneForestTruck": 0,
+                "ZoneGasStation": 0,
+                "ZoneGreenHouses": 0,
+                "ZoneIsland": 0,
+                "ZoneMeteoStation": 0,
+                "ZonePassClose": 0,
+                "ZonePassFar": 0,
+                "ZonePort": 0,
+                "ZonePowerStation": 0,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 0,
+                "ZoneSanatorium1": 0,
+                "ZoneSanatorium2": 0,
+                "ZoneSmuglers": 0,
+                "ZoneStartVillage": 0,
+                "ZoneTunnel": 0
+            }
+        },
+        "sniperScavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBunker": 0,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 0,
+                "ZoneForestGasStation": 0,
+                "ZoneForestSpawn": 0,
+                "ZoneForestTruck": 0,
+                "ZoneGasStation": 0,
+                "ZoneGreenHouses": 0,
+                "ZoneIsland": 0,
+                "ZoneMeteoStation": 0,
+                "ZonePassClose": 0,
+                "ZonePassFar": 0,
+                "ZonePort": 0,
+                "ZonePowerStation": 0,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 0,
+                "ZoneSanatorium1": 0,
+                "ZoneSanatorium2": 0,
+                "ZoneSmuglers": 0,
+                "ZoneStartVillage": 0,
+                "ZoneTunnel": 0
+            }
+        },
+        "bosses": {
+            "enabled": false,
+            "botType": {
+                "glukhar": 0,
+                "kaban": 0,
+                "killa": 0,
+                "knight": 0,
+                "reshala": 0,
+                "sanitar": 0,
+                "shturman": 0,
+                "tagilla": 0,
+                "zryachiy": 0
+            },
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "onlyVanillaOpenZones": false,
+            "openZones": {
+                "ZoneBunker": 0,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 0,
+                "ZoneForestGasStation": 0,
+                "ZoneForestSpawn": 0,
+                "ZoneForestTruck": 0,
+                "ZoneGasStation": 0,
+                "ZoneGreenHouses": 0,
+                "ZoneIsland": 0,
+                "ZoneMeteoStation": 0,
+                "ZonePassClose": 0,
+                "ZonePassFar": 0,
+                "ZonePort": 0,
+                "ZonePowerStation": 0,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 0,
+                "ZoneSanatorium1": 0,
+                "ZoneSanatorium2": 0,
+                "ZoneSmuglers": 0,
+                "ZoneStartVillage": 0,
+                "ZoneTunnel": 0
+            }
+        },
+        "cultists": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "onlyVanillaOpenZones": false,
+            "openZones": {
+                "ZoneBunker": 0,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 0,
+                "ZoneForestGasStation": 0,
+                "ZoneForestSpawn": 0,
+                "ZoneForestTruck": 0,
+                "ZoneGasStation": 0,
+                "ZoneGreenHouses": 0,
+                "ZoneIsland": 0,
+                "ZoneMeteoStation": 0,
+                "ZonePassClose": 0,
+                "ZonePassFar": 0,
+                "ZonePort": 0,
+                "ZonePowerStation": 0,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 0,
+                "ZoneSanatorium1": 0,
+                "ZoneSanatorium2": 0,
+                "ZoneSmuglers": 0,
+                "ZoneStartVillage": 0,
+                "ZoneTunnel": 0
+            }
+        },
+        "raiders": {
+            "enabled": true,
+            "botDifficulty": {
+                "easy": 3,
+                "normal": 5,
+                "hard": 1,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 15,
+                "max": 45
+            },
+            "botAmountPerSpawnWave": [3,3,3,4],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 1,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 120
+                }
+            },
+            "openZones": {
+                "ZoneBunker": 1,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 1,
+                "ZoneForestGasStation": 1,
+                "ZoneForestSpawn": 1,
+                "ZoneForestTruck": 1,
+                "ZoneGasStation": 1,
+                "ZoneGreenHouses": 1,
+                "ZoneIsland": 1,
+                "ZoneMeteoStation": 1,
+                "ZonePassClose": 1,
+                "ZonePassFar": 1,
+                "ZonePort": 1,
+                "ZonePowerStation": 1,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 1,
+                "ZoneSanatorium1": 1,
+                "ZoneSanatorium2": 1,
+                "ZoneSmuglers": 1,
+                "ZoneStartVillage": 1,
+                "ZoneTunnel": 1
+            }
+        },
+        "rogues": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBunker": 0,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 0,
+                "ZoneForestGasStation": 0,
+                "ZoneForestSpawn": 0,
+                "ZoneForestTruck": 0,
+                "ZoneGasStation": 0,
+                "ZoneGreenHouses": 0,
+                "ZoneIsland": 0,
+                "ZoneMeteoStation": 0,
+                "ZonePassClose": 0,
+                "ZonePassFar": 0,
+                "ZonePort": 0,
+                "ZonePowerStation": 0,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 0,
+                "ZoneSanatorium1": 0,
+                "ZoneSanatorium2": 0,
+                "ZoneSmuglers": 0,
+                "ZoneStartVillage": 0,
+                "ZoneTunnel": 0
+            }
+        },
+        "bloodhounds": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBunker": 0,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 0,
+                "ZoneForestGasStation": 0,
+                "ZoneForestSpawn": 0,
+                "ZoneForestTruck": 0,
+                "ZoneGasStation": 0,
+                "ZoneGreenHouses": 0,
+                "ZoneIsland": 0,
+                "ZoneMeteoStation": 0,
+                "ZonePassClose": 0,
+                "ZonePassFar": 0,
+                "ZonePort": 0,
+                "ZonePowerStation": 0,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 0,
+                "ZoneSanatorium1": 0,
+                "ZoneSanatorium2": 0,
+                "ZoneSmuglers": 0,
+                "ZoneStartVillage": 0,
+                "ZoneTunnel": 0
+            }
+        },
+        "weirdScavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBunker": 0,
+                "ZoneBunkeSniper": 0,
+                "ZoneBusStation": 0,
+                "ZoneForestGasStation": 0,
+                "ZoneForestSpawn": 0,
+                "ZoneForestTruck": 0,
+                "ZoneGasStation": 0,
+                "ZoneGreenHouses": 0,
+                "ZoneIsland": 0,
+                "ZoneMeteoStation": 0,
+                "ZonePassClose": 0,
+                "ZonePassFar": 0,
+                "ZonePort": 0,
+                "ZonePowerStation": 0,
+                "ZonePowerStationSniper": 0,
+                "ZoneRailWays": 0,
+                "ZoneSanatorium1": 0,
+                "ZoneSanatorium2": 0,
+                "ZoneSmuglers": 0,
+                "ZoneStartVillage": 0,
+                "ZoneTunnel": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,391 @@
+{
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "description": "Spawn Generator: Adds one random weird scav spawn wave to the main preset for Woods",
+    "enableMainPresets": true,
+    "woods": {
+        "pmcs": {
+            "enabled": false,
+            "botType": {
+                "bear": 0,
+                "usec": 0
+            },
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBigRocks": 0,
+                "ZoneBrokenVill": 0,
+                "ZoneClearVill": 0,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 0,
+                "ZoneMiniHouse": 0,
+                "ZoneRedHouse": 0,
+                "ZoneRoad": 0,
+                "ZoneScavBase2": 0,
+                "ZoneWoodCutter": 0
+            }
+        },
+        "scavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBigRocks": 0,
+                "ZoneBrokenVill": 0,
+                "ZoneClearVill": 0,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 0,
+                "ZoneMiniHouse": 0,
+                "ZoneRedHouse": 0,
+                "ZoneRoad": 0,
+                "ZoneScavBase2": 0,
+                "ZoneWoodCutter": 0
+            }
+        },
+        "sniperScavs": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBigRocks": 0,
+                "ZoneBrokenVill": 0,
+                "ZoneClearVill": 0,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 0,
+                "ZoneMiniHouse": 0,
+                "ZoneRedHouse": 0,
+                "ZoneRoad": 0,
+                "ZoneScavBase2": 0,
+                "ZoneWoodCutter": 0
+            }
+        },
+        "bosses": {
+            "enabled": false,
+            "botType": {
+                "glukhar": 0,
+                "kaban": 0,
+                "killa": 0,
+                "knight": 0,
+                "reshala": 0,
+                "sanitar": 0,
+                "shturman": 0,
+                "tagilla": 0,
+                "zryachiy": 0
+            },
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "onlyVanillaOpenZones": false,
+            "openZones": {
+                "ZoneBigRocks": 0,
+                "ZoneBrokenVill": 0,
+                "ZoneClearVill": 0,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 0,
+                "ZoneMiniHouse": 0,
+                "ZoneRedHouse": 0,
+                "ZoneRoad": 0,
+                "ZoneScavBase2": 0,
+                "ZoneWoodCutter": 0
+            }
+        },
+        "cultists": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBigRocks": 0,
+                "ZoneBrokenVill": 0,
+                "ZoneClearVill": 0,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 0,
+                "ZoneMiniHouse": 0,
+                "ZoneRedHouse": 0,
+                "ZoneRoad": 0,
+                "ZoneScavBase2": 0,
+                "ZoneWoodCutter": 0
+            }
+        },
+        "raiders": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBigRocks": 0,
+                "ZoneBrokenVill": 0,
+                "ZoneClearVill": 0,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 0,
+                "ZoneMiniHouse": 0,
+                "ZoneRedHouse": 0,
+                "ZoneRoad": 0,
+                "ZoneScavBase2": 0,
+                "ZoneWoodCutter": 0
+            }
+        },
+        "rogues": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBigRocks": 0,
+                "ZoneBrokenVill": 0,
+                "ZoneClearVill": 0,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 0,
+                "ZoneMiniHouse": 0,
+                "ZoneRedHouse": 0,
+                "ZoneRoad": 0,
+                "ZoneScavBase2": 0,
+                "ZoneWoodCutter": 0
+            }
+        },
+        "bloodhounds": {
+            "enabled": false,
+            "botDifficulty": {
+                "easy": 0,
+                "normal": 0,
+                "hard": 0,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 0,
+                "max": 0
+            },
+            "botAmountPerSpawnWave": [0],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 0,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "openZones": {
+                "ZoneBigRocks": 0,
+                "ZoneBrokenVill": 0,
+                "ZoneClearVill": 0,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 0,
+                "ZoneMiniHouse": 0,
+                "ZoneRedHouse": 0,
+                "ZoneRoad": 0,
+                "ZoneScavBase2": 0,
+                "ZoneWoodCutter": 0
+            }
+        },
+        "weirdScavs": {
+            "enabled": true,
+            "botDifficulty": {
+                "easy": 3,
+                "normal": 5,
+                "hard": 1,
+                "impossible": 0
+            },
+            "botChance": {
+                "min": 15,
+                "max": 45
+            },
+            "botAmountPerSpawnWave": [2,2,2,3],
+            "spawnWaves": {
+                "initial": {
+                    "waves": 1,
+                    "time": 0
+                },
+                "interval": {
+                    "waves": 0,
+                    "wavesPerInterval": 0,
+                    "time": 0
+                },
+                "spawnDelay": {
+                    "min": 0,
+                    "max": 120
+                }
+            },
+            "openZones": {
+                "ZoneBigRocks": 1,
+                "ZoneBrokenVill": 1,
+                "ZoneClearVill": 1,
+                "ZoneHighRocks": 0,
+                "ZoneHouse": 1,
+                "ZoneMiniHouse": 1,
+                "ZoneRedHouse": 1,
+                "ZoneRoad": 1,
+                "ZoneScavBase2": 1,
+                "ZoneWoodCutter": 1
+            }
+        }
+    }
+}
