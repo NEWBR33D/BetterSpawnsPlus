@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.3
+ * BetterSpawnsPlus v2.0.4
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */
@@ -9,7 +9,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import { inject, injectable } from "tsyringe";
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
 import { AltLocationNames } from "../enums/BSPEnumLocations";
 import { AllBotTypes, ConversionBotTypes } from "../enums/BSPEnumBots";
 import { LoggerTypes } from "../enums/BSPEnumLogger";
@@ -30,7 +30,7 @@ export class BSPClassLocations {
     public allOpenZones(eftDatabaseLocations: any): any {
         for (const location in openZonesMap) {
             eftDatabaseLocations[location].base.OpenZones = openZonesMap[location].join(",");
-            this.logger.log(location + " :" + eftDatabaseLocations[location].base.OpenZones, LoggerTypes.INFO);
+            //this.logger.log(location + " :" + eftDatabaseLocations[location].base.OpenZones, LoggerTypes.INFO);
         }
     }
 
@@ -74,6 +74,7 @@ export class BSPClassLocations {
                 break;
             case "groundzero":
                 initSpawnArray(AltLocationNames.GROUNDZERO);
+                initSpawnArray(AltLocationNames.GROUNDZERO_HIGH);
                 break;
             case "interchange":
             case "lighthouse":

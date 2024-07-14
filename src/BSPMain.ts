@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.3
+ * BetterSpawnsPlus v2.0.4
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */
@@ -9,24 +9,24 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import { DependencyContainer } from "tsyringe";
-import { PreAkiModLoader } from "@spt-aki/loaders/PreAkiModLoader";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { IAirdropConfig } from "@spt-aki/models/spt/config/IAirdropConfig";
-import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
-import { IInRaidConfig } from "@spt-aki/models/spt/config/IInRaidConfig";
-import { IInsuranceConfig } from "@spt-aki/models/spt/config/IInsuranceConfig";
-import { ILocationConfig } from "@spt-aki/models/spt/config/ILocationConfig";
-import { ILostOnDeathConfig } from "@spt-aki/models/spt/config/ILostOnDeathConfig";
-import { IPmcConfig } from "@spt-aki/models/spt/config/IPmcConfig";
-import { IRepairConfig } from "@spt-aki/models/spt/config/IRepairConfig";
-import { ITraderConfig } from "@spt-aki/models/spt/config/ITraderConfig";
-import { IScavCaseConfig } from "@spt-aki/models/spt/config/IScavCaseConfig";
-import { IWeatherConfig } from "@spt-aki/models/spt/config/IWeatherConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
+import { PreSptModLoader } from "@spt/loaders/PreSptModLoader";
+import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
+import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
+import { IAirdropConfig } from "@spt/models/spt/config/IAirdropConfig";
+import { IBotConfig } from "@spt/models/spt/config/IBotConfig";
+import { IInRaidConfig } from "@spt/models/spt/config/IInRaidConfig";
+import { IInsuranceConfig } from "@spt/models/spt/config/IInsuranceConfig";
+import { ILocationConfig } from "@spt/models/spt/config/ILocationConfig";
+import { ILostOnDeathConfig } from "@spt/models/spt/config/ILostOnDeathConfig";
+import { IPmcConfig } from "@spt/models/spt/config/IPmcConfig";
+import { IRepairConfig } from "@spt/models/spt/config/IRepairConfig";
+import { ITraderConfig } from "@spt/models/spt/config/ITraderConfig";
+import { IScavCaseConfig } from "@spt/models/spt/config/IScavCaseConfig";
+import { IWeatherConfig } from "@spt/models/spt/config/IWeatherConfig";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
+import { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
 import { BSPClassBots } from "./BSPClassBots";
 import { BSPClassHelpers } from "./BSPClassHelpers";
 import { BSPClassHideout } from "./BSPClassHideout";
@@ -38,8 +38,8 @@ import { BSPClassRaids } from "./BSPClassRaids";
 import { BSPClassTraders } from "./BSPClassTraders";
 import { LocationNames } from "../enums/BSPEnumLocations";
 import { LoggerTypes } from "../enums/BSPEnumLogger";
-import * as path from "path";
 import * as fs from "fs";
+import * as path from "path";
 import pkg from "../package.json";
 import settingsManager from "../config/settingsManager.json";
 
@@ -49,7 +49,7 @@ class BSPMain implements IPostDBLoadMod {
 
     private locationNames: string[] = Object.values(LocationNames);
 
-    public preAkiLoad(container: DependencyContainer): void { 
+    public preSptLoad(container: DependencyContainer): void { 
         this.databaseServer = container.resolve<DatabaseServer>("DatabaseServer");
         this.logger = container.resolve<ILogger>("WinstonLogger");
 
@@ -65,41 +65,40 @@ class BSPMain implements IPostDBLoadMod {
         
         const staticRouterModService: StaticRouterModService = container.resolve<StaticRouterModService>("StaticRouterModService");
         
-        staticRouterModService.registerStaticRouter(
-            "BetterSpawnsPlus",
-            [
-                {
-                    url: "/client/items",
-                    action: (url, info, sessionID, output) =>
+        if (settingsManager.modEnabled) {
+            staticRouterModService.registerStaticRouter(
+                `[${pkg.name}] /client/items`, 
+                [
                     {
-                        try
-                        {
-                            Object.keys(require.cache).forEach(function(key) {
-                                delete require.cache[key]
-                            });
+                        url: "/client/items",
+                        action: (url: string, info: any, sessionID: string, output: string): any => {
+                            try {
+                                
+                                Object.keys(require.cache).forEach(function(key) {
+                                    delete require.cache[key]
+                                });
 
-                            const eftDatabaseLocations = this.databaseServer.getTables().locations;
+                                const eftDatabaseLocations = this.databaseServer.getTables().locations;
 
-                            const sptConfigsAirdrop: IAirdropConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IAirdropConfig>(ConfigTypes.AIRDROP);
-                            const sptConfigsBot: IBotConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
-                            const sptConfigsInRaid: IInRaidConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IInRaidConfig>(ConfigTypes.IN_RAID);
-                            const sptConfigsLocation: ILocationConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<ILocationConfig>(ConfigTypes.LOCATION);
-                            const sptConfigsPmc: IPmcConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IPmcConfig>(ConfigTypes.PMC);
+                                const sptConfigsAirdrop: IAirdropConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IAirdropConfig>(ConfigTypes.AIRDROP);
+                                const sptConfigsBot: IBotConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
+                                const sptConfigsInRaid: IInRaidConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IInRaidConfig>(ConfigTypes.IN_RAID);
+                                const sptConfigsLocation: ILocationConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<ILocationConfig>(ConfigTypes.LOCATION);
+                                const sptConfigsPmc: IPmcConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IPmcConfig>(ConfigTypes.PMC);
 
-                            const loadSettings = (filename) => require(path.resolve(__dirname, `../config/${settingsManager.settingsFolder}/${filename}.json`));
-                            const settingsBots = loadSettings("bots");
-                            const settingsLocations = loadSettings("locations");
-                            const settingsRaids = loadSettings("raids");
+                                const loadSettings = (filename) => require(path.resolve(__dirname, `../config/${settingsManager.settingsFolder}/${filename}.json`));
+                                const settingsBots = loadSettings("bots");
+                                const settingsLocations = loadSettings("locations");
+                                const settingsRaids = loadSettings("raids");
 
-                            const tryCatchWrapper = (fn, methodName) => {
-                                try {
-                                    fn();
-                                } catch (err) {
-                                    this.logger.error(`Error in ${methodName}: ${err.message}`);
-                                }
-                            };
-
-                            if (settingsManager.modEnabled) {
+                                const tryCatchWrapper = (fn, methodName) => {
+                                    try {
+                                        fn();
+                                    } catch (err) {
+                                        this.logger.error(`Error in ${methodName}: ${err.message}`);
+                                    }
+                                };
+                                
                                 // BOTS SETTINGS
                                 if (settingsBots.enabled) try {
                                     bspClassBots.botBrainType(settingsBots, bspClassHelpers, sptConfigsBot, sptConfigsPmc);
@@ -127,8 +126,8 @@ class BSPMain implements IPostDBLoadMod {
                                     for (const locations in this.locationNames) {
                                         const location = this.locationNames[locations];
 
-                                        const logsDirName = path.basename(path.dirname(__dirname.split('/').pop()));
-                                        const logsFilePath = `${container.resolve<PreAkiModLoader>("PreAkiModLoader").getModPath(logsDirName)}logs/logs_${location}.json`;
+                                        const logsDirName = path.basename(path.dirname(__dirname.split("/").pop()));
+                                        const logsFilePath = `${container.resolve<PreSptModLoader>("PreSptModLoader").getModPath(logsDirName)}logs/logs_${location}.json`;
                                         const logsData = JSON.parse(fs.readFileSync(logsFilePath, "utf-8"));
                                         
                                         logsData.mainPreset = logsData.sgPreset = "disabled";
@@ -208,16 +207,16 @@ class BSPMain implements IPostDBLoadMod {
                                     this.logger.log(`Mod: ${pkg.name}: check "user/mods/PreyToLive-BetterSpawnsPlus/logs/" for raid details`, LoggerTypes.SUCCESS);
                                 }
                             }
+                            catch (err) {
+                                this.logger.error(`Error in [${pkg.name}] /client/items: ${err.message}`);
+                            }
+                            return output;
                         }
-                        catch (err) {
-                            this.logger.error(`Error in preAkiLoad: ${err.message}`);
-                        }
-                        return output;
                     }
-                }
-            ],
-            "aki"
-        );
+                ],
+                `[${pkg.name}] /client/items`
+            );
+        }
     }
 
     public postDBLoad(container: DependencyContainer): void {

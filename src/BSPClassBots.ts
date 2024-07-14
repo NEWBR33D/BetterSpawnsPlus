@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.3
+ * BetterSpawnsPlus v2.0.4
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */
@@ -9,7 +9,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import { inject, injectable } from "tsyringe";
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
 import { AltLocationNames } from "../enums/BSPEnumLocations";
 import { BotBrainTypes, BotDifficultyTypes, PmcBotTypes } from "../enums/BSPEnumBots";
 import pmcDogTags from "../db/bots/pmcs/dogTags.json";
@@ -41,8 +41,8 @@ export class BSPClassBots {
 
             // bot brain types for pmcs and scavs
             for (const altLocation of this.altLocationNames) {
-                sptConfigsPmc.pmcType.sptbear[altLocation] = settingsBots.brainTypes.bear;
-                sptConfigsPmc.pmcType.sptusec[altLocation] = settingsBots.brainTypes.usec;
+                sptConfigsPmc.pmcType.pmcbear[altLocation] = settingsBots.brainTypes.bear;
+                sptConfigsPmc.pmcType.pmcusec[altLocation] = settingsBots.brainTypes.usec;
                 sptConfigsBot.assaultBrainType[altLocation] = settingsBots.brainTypes.scav;
             }
         }

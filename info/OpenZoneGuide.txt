@@ -1,4 +1,4 @@
-// PreyToLive's BetterSpawnsPlus v2.0.3 - Open Zone Guide //
+// PreyToLive's BetterSpawnsPlus v2.0.4 - Open Zone Guide //
 
 Below, you'll find the locations of all open zones where bots spawn. I've identified and mapped out each of these zones
 within the respective maps. Please refer to the Tarkov wiki maps for a general idea of where these zones are situated.

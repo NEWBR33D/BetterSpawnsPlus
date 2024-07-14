@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PmcBotTypes = exports.ConversionBotTypes = exports.BotDifficultyTypes = exports.BotBrainTypes = exports.AllBotTypes = void 0;
 var AllBotTypes;
 (function (AllBotTypes) {
-    AllBotTypes["BEAR"] = "sptBear";
+    AllBotTypes["BEAR"] = "pmcBEAR";
     AllBotTypes["BIGPIPE"] = "followerBigPipe";
     AllBotTypes["BIRDEYE"] = "followerBirdEye";
     AllBotTypes["BLOODHOUND"] = "arenaFighterEvent";
@@ -38,7 +38,7 @@ var AllBotTypes;
     AllBotTypes["SNIPERSCAV"] = "marksman";
     AllBotTypes["TAGILLA"] = "bossTagilla";
     AllBotTypes["TAGILLA_FOLLOWER"] = "followerTagilla";
-    AllBotTypes["USEC"] = "sptUsec";
+    AllBotTypes["USEC"] = "pmcUSEC";
     AllBotTypes["WEIRD_SCAV"] = "crazyAssaultEvent";
     AllBotTypes["ZRYACHIY"] = "bossZryachiy";
     AllBotTypes["ZRYACHIY_FOLLOWER"] = "followerZryachiy";
@@ -83,6 +83,6 @@ var ConversionBotTypes;
 })(ConversionBotTypes || (exports.ConversionBotTypes = ConversionBotTypes = {}));
 var PmcBotTypes;
 (function (PmcBotTypes) {
-    PmcBotTypes["BEAR"] = "bear";
-    PmcBotTypes["USEC"] = "usec";
+    PmcBotTypes["BEAR"] = "pmcBEAR";
+    PmcBotTypes["USEC"] = "pmcUSEC";
 })(PmcBotTypes || (exports.PmcBotTypes = PmcBotTypes = {}));

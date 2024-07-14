@@ -7,6 +7,7 @@ var AltLocationNames;
     AltLocationNames["FACTORY_DAY"] = "factory4_day";
     AltLocationNames["FACTORY_NIGHT"] = "factory4_night";
     AltLocationNames["GROUNDZERO"] = "sandbox";
+    AltLocationNames["GROUNDZERO_HIGH"] = "sandbox_high";
     AltLocationNames["INTERCHANGE"] = "interchange";
     AltLocationNames["LABORATORY"] = "laboratory";
     AltLocationNames["LIGHTHOUSE"] = "lighthouse";

@@ -3,6 +3,7 @@ export enum AltLocationNames {
     FACTORY_DAY = "factory4_day",
     FACTORY_NIGHT = "factory4_night",
     GROUNDZERO = "sandbox",
+    GROUNDZERO_HIGH = "sandbox_high",
     INTERCHANGE = "interchange",
     LABORATORY = "laboratory",
     LIGHTHOUSE = "lighthouse",

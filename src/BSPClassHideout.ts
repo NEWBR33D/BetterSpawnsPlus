@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.3
+ * BetterSpawnsPlus v2.0.4
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */
@@ -9,7 +9,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import { inject, injectable } from "tsyringe";
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
 
 @injectable()
 export class BSPClassHideout {

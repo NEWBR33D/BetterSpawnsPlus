@@ -1,5 +1,5 @@
 export enum AllBotTypes {
-    BEAR = "sptBear",
+    BEAR = "pmcBEAR",
     BIGPIPE = "followerBigPipe",
     BIRDEYE = "followerBirdEye",
     BLOODHOUND = "arenaFighterEvent",
@@ -34,7 +34,7 @@ export enum AllBotTypes {
     SNIPERSCAV = "marksman",
     TAGILLA = "bossTagilla",
     TAGILLA_FOLLOWER = "followerTagilla",
-    USEC = "sptUsec",
+    USEC = "pmcUSEC",
     WEIRD_SCAV = "crazyAssaultEvent",
     ZRYACHIY = "bossZryachiy",
     ZRYACHIY_FOLLOWER = "followerZryachiy"
@@ -79,6 +79,6 @@ export enum ConversionBotTypes {
 }
 
 export enum PmcBotTypes {
-    BEAR = "bear",
-    USEC = "usec"
+    BEAR = "pmcBEAR",
+    USEC = "pmcUSEC"
 }

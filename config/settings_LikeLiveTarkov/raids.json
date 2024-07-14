@@ -1,5 +1,5 @@
 {
-    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.4",
     "description": "Raids Settings (LikeLiveTarkov)",
     
     "enabled": true,
@@ -167,7 +167,6 @@
     },
 
     "weather": {
-        "dayNightAcceleration": 7,
-        "forceSnowWeather": false
+        "dayNightAcceleration": 7
     }
 }

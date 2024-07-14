@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.3
+ * BetterSpawnsPlus v2.0.4
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */
@@ -9,7 +9,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import { inject, injectable } from "tsyringe";
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
 
 @injectable()
 export class BSPClassLoot {
@@ -48,6 +48,10 @@ export class BSPClassLoot {
                 eftDatabaseLocations.factory4_night.base.GlobalLootChanceModifier = settingsLoot[mapName].loot.globalLootChanceModifier;
                 sptConfigsLocation.looseLootMultiplier.factory4_night = settingsLoot[mapName].loot.looseLootMultiplier;
                 sptConfigsLocation.staticLootMultiplier.factory4_night = settingsLoot[mapName].loot.staticLootMultiplier;
+            } else if (mapName === "sandbox") {
+                eftDatabaseLocations.sandbox_high.base.GlobalLootChanceModifier = settingsLoot[mapName].loot.globalLootChanceModifier;
+                sptConfigsLocation.looseLootMultiplier.sandbox_high = settingsLoot[mapName].loot.looseLootMultiplier;
+                sptConfigsLocation.staticLootMultiplier.sandbox_high = settingsLoot[mapName].loot.staticLootMultiplier;
             }
         }
     }
@@ -64,6 +68,9 @@ export class BSPClassLoot {
             if (mapName === "factory") {
                 eftDatabaseLocations.factory4_night.base.GlobalContainerChanceModifier = settingsLoot[mapName].containers.globalContainerChanceModifier;
                 sptConfigsLocation.containerRandomisationSettings.maps.factory4_night = settingsLoot[mapName].containers.containerRandomization;    
+            } else if (mapName === "sandbox") {
+                eftDatabaseLocations.sandbox_high.base.GlobalContainerChanceModifier = settingsLoot[mapName].containers.globalContainerChanceModifier;
+                sptConfigsLocation.containerRandomisationSettings.maps.sandbox_high = settingsLoot[mapName].containers.containerRandomization;   
             }
         }
     }

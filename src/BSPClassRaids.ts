@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.3
+ * BetterSpawnsPlus v2.0.4
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */
@@ -9,7 +9,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import { inject, injectable } from "tsyringe";
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
 import { AltLocationNames, LocationNames } from "../enums/BSPEnumLocations";
 
 @injectable()
@@ -81,6 +81,7 @@ export class BSPClassRaids {
                         break;
                     case "groundzero":
                         sptConfigsBot.maxBotCap.sandbox = randomBotCap;
+                        sptConfigsBot.maxBotCap.sandbox_high = randomBotCap;
                         break;
                     case "interchange":
                     case "lighthouse":
@@ -126,7 +127,9 @@ export class BSPClassRaids {
                         break;
                     case "groundzero":
                         eftDatabaseLocations.sandbox.base.exit_access_time = randomRaidTimer + 20;
+                        eftDatabaseLocations.sandbox_high.base.exit_access_time = randomRaidTimer + 20;
                         eftDatabaseLocations.sandbox.base.EscapeTimeLimit = randomRaidTimer;
+                        eftDatabaseLocations.sandbox_high.base.EscapeTimeLimit = randomRaidTimer;
                         break;
                     case "interchange":
                         eftDatabaseLocations.interchange.base.exit_access_time = randomRaidTimer + 20;
@@ -336,6 +339,7 @@ export class BSPClassRaids {
 
                 if (location == "groundzero") {
                     sptConfigsAirdrop.airdropChancePercent.sandbox = settingsRaids.airdrops.chance[location];
+                    sptConfigsAirdrop.airdropChancePercent.sandbox_high = settingsRaids.airdrops.chance[location];
                 }
                 
                 if (location == "streets") {
@@ -386,6 +390,7 @@ export class BSPClassRaids {
                     case "sandbox":
                         for (const exfil in eftDatabaseLocations[location].base.exits) {
                             eftDatabaseLocations[location].base.exits[exfil].EntryPoints = "west,east";
+                            eftDatabaseLocations[`${location}_high`].base.exits[exfil].EntryPoints = "west,east";
                         }
                         break;
                     case "shoreline":
@@ -464,6 +469,5 @@ export class BSPClassRaids {
     // static
     public raidWeather(settingsRaids: any, sptConfigsWeather: any): any {
         sptConfigsWeather.acceleration = settingsRaids.weather.dayNightAcceleration;
-        sptConfigsWeather.forceWinterEvent = settingsRaids.weather.forceSnowWeather;
     }
 }

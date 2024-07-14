@@ -1,4 +1,4 @@
-# **PreyToLive-BetterSpawnsPlus v2.0.3**
+# **PreyToLive-BetterSpawnsPlus v2.0.4**
 
 Developed by: [NEWBR33D](https://github.com/NEWBR33D) (aka [PreyToLive](https://hub.sp-tarkov.com/user/24548-preytolive/))
 
@@ -22,7 +22,7 @@ To ensure proper functionality, please make sure that bosses are enabled in your
 - The Plus: Aside from the improved spawns, BetterSpawnsPlus provides a variety of other options within the config file, allowing you to customize various aspects of the game to align with your preferred playstyle. Among these options you can adjust raid timers to your liking, manage insurance settings, set exfil mechanics, control airdrop occurrences, modify loot distribution, and more.
 
 ## **Installation Instructions:**
-1. Begin by downloading the "PreyToLive-BetterSpawnPlus-v2.0.3.zip" file from the provided link or the Github repository.
+1. Begin by downloading the "PreyToLive-BetterSpawnPlus-v2.0.4.zip" file from the provided link or the Github repository.
 2. Extract the contents of the downloaded archive. You should now have a folder named 'PreyToLive-BetterSpawnsPlus' containing the mod files.
 3. Navigate to the location of your SPTarkov folder on your computer.
 4. Inside the SPTarkov folder, find the 'user/mods/' directory.
@@ -229,7 +229,7 @@ The code provided above serves as an example for creating a single spawn wave. I
 - "RandomTimeSpawn": This option has no effect and should be left set to false.
 
 Here is a listing of all the available bot types for "BossName and "BossEscortType":
-- PMCs: "sptBear" and "sptUsec"
+- PMCs: "pmcBEAR" and "pmcUSEC"
 - Scavs: "assault", "cursedAssault", and "crazyAssaultEvent"
 - Sniper Scavs: "marksman"
 - Bosses: "bossBoar", "bossBoarSniper", "bossBully", "bossGluhar", "bossKilla", "bossKnight", "bossKojaniy", "bossSanitar", "bossTagilla", and "bossZryachiy"
@@ -341,7 +341,7 @@ Custom Live-Like PMC Dogtags: This option enables the use of the custom Live-Lik
 ```
 "makePmcsNotRandomlyTalk": [true/false]
 ```
-Make PMCS Not Randomly Talk: PMCs talk again in SPT-AKI 3.5.0+ giving away there position too often. This option mostly fixes this by preventing the PMC bots from talking, except when reloading they still occasionally talk. Its not perfect and doesn't make them completely silent but its better than nothing.
+Make PMCS Not Randomly Talk: PMCs talk again in SPT 3.5.0+ giving away there position too often. This option mostly fixes this by preventing the PMC bots from talking, except when reloading they still occasionally talk. Its not perfect and doesn't make them completely silent but its better than nothing.
 ```
 "chanceSameFactionIsHostile": [0->100%]
 ```

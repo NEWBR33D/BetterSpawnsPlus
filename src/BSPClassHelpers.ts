@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.3
+ * BetterSpawnsPlus v2.0.4
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */
@@ -9,8 +9,8 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 import { inject, injectable, DependencyContainer } from "tsyringe";
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import type { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import type { ILogger } from "@spt/models/spt/utils/ILogger";
+import type { DatabaseServer } from "@spt/servers/DatabaseServer";
 
 @injectable()
 export class BSPClassHelpers {
@@ -53,7 +53,11 @@ export class BSPClassHelpers {
             "Delay": delay,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         }
     }
 

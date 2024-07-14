@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.3
+ * BetterSpawnsPlus v2.0.4
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */
@@ -83,6 +83,10 @@ export const openZonesMap = {
         "ZoneSubStorage"
     ],
     sandbox: [
+        "ZoneSandbox",
+        "ZoneSandSnipeCenter"
+    ],
+    sandbox_high: [
         "ZoneSandbox",
         "ZoneSandSnipeCenter"
     ],
