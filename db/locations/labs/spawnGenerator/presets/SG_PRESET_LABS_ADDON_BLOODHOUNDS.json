@@ -1,5 +1,5 @@
 {
-    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.4",
     "description": "Spawn Generator: Adds one random bloodhound spawn wave to the main preset for The Lab",
     "enableMainPresets": true,
     "labs": {
