@@ -1,5 +1,5 @@
 {
-    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.3",
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.4",
     "description": "Main: Like-Live-Tarkov-1 spawns for Woods",
     "randomize": {
         "enabled": true,
@@ -114,12 +114,12 @@
     },
     "pmcs": [
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneBigRocks",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 450,
@@ -129,15 +129,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneBigRocks",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1350,
@@ -147,15 +151,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneBigRocks",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1",
             "Time": 2450,
@@ -165,15 +173,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneBrokenVill",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 750,
@@ -183,15 +195,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneBrokenVill",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1250,
@@ -201,15 +217,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneBrokenVill",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1",
             "Time": 2310,
@@ -219,15 +239,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneClearVill",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 400,
@@ -237,15 +261,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneClearVill",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1110,
@@ -255,15 +283,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneClearVill",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1",
             "Time": 2180,
@@ -273,15 +305,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 370,
@@ -291,15 +327,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1470,
@@ -309,15 +349,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1",
             "Time": 2370,
@@ -327,15 +371,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneMiniHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 510,
@@ -345,15 +393,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneMiniHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1280,
@@ -363,15 +415,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneMiniHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1",
             "Time": 2190,
@@ -381,15 +437,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneRedHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 650,
@@ -399,15 +459,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneRedHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1650,
@@ -417,15 +481,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneRedHouse",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1",
             "Time": 2450,
@@ -435,15 +503,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneRoad",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 590,
@@ -453,15 +525,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneRoad",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1250,
@@ -471,15 +547,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneRoad",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1,1,2",
             "Time": 2320,
@@ -489,15 +569,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneScavBase2",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 360,
@@ -507,15 +591,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneScavBase2",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1260,
@@ -525,15 +613,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneScavBase2",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1",
             "Time": 2320,
@@ -543,15 +635,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },   
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneWoodCutter",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptBear",
+            "BossEscortType": "pmcBEAR",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 550,
@@ -561,15 +657,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptUsec",
+            "BossName": "pmcUSEC",
             "BossChance": 75,
             "BossZone": "ZoneWoodCutter",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "0,0,0,0,1",
             "Time": 1480,
@@ -579,15 +679,19 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
-            "BossName": "sptBear",
+            "BossName": "pmcBEAR",
             "BossChance": 75,
             "BossZone": "ZoneWoodCutter",
             "BossPlayer": false,
             "BossDifficult": "normal",
-            "BossEscortType": "sptUsec",
+            "BossEscortType": "pmcUSEC",
             "BossEscortDifficult": "normal",
             "BossEscortAmount": "1,1,2",
             "Time": 2520,
@@ -597,7 +701,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         }
     ],
     "scavs": [
@@ -617,7 +725,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -635,7 +747,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -653,7 +769,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -671,7 +791,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -689,7 +813,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -707,7 +835,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -725,7 +857,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -743,7 +879,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -761,7 +901,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -779,7 +923,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -797,7 +945,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -815,7 +967,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -833,7 +989,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -851,7 +1011,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -869,7 +1033,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -887,7 +1055,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -905,7 +1077,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -923,7 +1099,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -941,7 +1121,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -959,7 +1143,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -977,7 +1165,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -995,7 +1187,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1013,7 +1209,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1031,7 +1231,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1049,7 +1253,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1067,7 +1275,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1085,7 +1297,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1103,7 +1319,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1121,7 +1341,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1139,7 +1363,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1157,7 +1385,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1175,7 +1407,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1193,7 +1429,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1211,7 +1451,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1229,7 +1473,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "assault",
@@ -1247,7 +1495,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         }
     ],
     "sniperScavs": [
@@ -1267,7 +1519,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "marksman",
@@ -1285,7 +1541,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         }
     ],
     "bosses": [
@@ -1320,7 +1580,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         },
         {
             "BossName": "bossKojaniy",
@@ -1338,7 +1602,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         }
     ],
     "cultists": [
@@ -1358,7 +1626,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         }
     ],
     "raiders": [],
@@ -1380,7 +1652,11 @@
             "Delay": 0,
             "RandomTimeSpawn": false,
             "ForceSpawn": true,
-            "IgnoreMaxBots": false
+            "IgnoreMaxBots": false,
+            "SpawnMode": [
+                "regular",
+                "pve"
+            ]
         }
     ],
     "weirdScavs": []
