@@ -83,6 +83,6 @@ var ConversionBotTypes;
 })(ConversionBotTypes || (exports.ConversionBotTypes = ConversionBotTypes = {}));
 var PmcBotTypes;
 (function (PmcBotTypes) {
-    PmcBotTypes["BEAR"] = "pmcBEAR";
-    PmcBotTypes["USEC"] = "pmcUSEC";
+    PmcBotTypes["BEAR"] = "pmcbear";
+    PmcBotTypes["USEC"] = "pmcusec";
 })(PmcBotTypes || (exports.PmcBotTypes = PmcBotTypes = {}));

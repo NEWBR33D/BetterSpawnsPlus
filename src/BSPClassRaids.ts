@@ -1,5 +1,5 @@
 /* 
- * BetterSpawnsPlus v2.0.4
+ * BetterSpawnsPlus v2.0.5
  * MIT License
  * Copyright (c) 2024 PreyToLive
  */

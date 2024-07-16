@@ -1,4 +1,4 @@
-# **PreyToLive-BetterSpawnsPlus v2.0.4**
+# **PreyToLive-BetterSpawnsPlus v2.0.5**
 
 Developed by: [NEWBR33D](https://github.com/NEWBR33D) (aka [PreyToLive](https://hub.sp-tarkov.com/user/24548-preytolive/))
 
@@ -22,7 +22,7 @@ To ensure proper functionality, please make sure that bosses are enabled in your
 - The Plus: Aside from the improved spawns, BetterSpawnsPlus provides a variety of other options within the config file, allowing you to customize various aspects of the game to align with your preferred playstyle. Among these options you can adjust raid timers to your liking, manage insurance settings, set exfil mechanics, control airdrop occurrences, modify loot distribution, and more.
 
 ## **Installation Instructions:**
-1. Begin by downloading the "PreyToLive-BetterSpawnPlus-v2.0.4.zip" file from the provided link or the Github repository.
+1. Begin by downloading the "PreyToLive-BetterSpawnPlus-v2.0.5.zip" file from the provided link or the Github repository.
 2. Extract the contents of the downloaded archive. You should now have a folder named 'PreyToLive-BetterSpawnsPlus' containing the mod files.
 3. Navigate to the location of your SPTarkov folder on your computer.
 4. Inside the SPTarkov folder, find the 'user/mods/' directory.

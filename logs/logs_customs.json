@@ -1,12 +1,11 @@
 {
-    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.4",
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.5",
     "description": "Logs: Customs",
 
     "raidTimer": 0,
     "maxBotCap": 0,
     "mainPreset": "",
     "sgPreset": "",
-    "spPreset": "",
     "total": {
         "bear": 0,
         "usec": 0,

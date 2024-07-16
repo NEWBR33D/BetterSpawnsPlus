@@ -79,6 +79,6 @@ export enum ConversionBotTypes {
 }
 
 export enum PmcBotTypes {
-    BEAR = "pmcBEAR",
-    USEC = "pmcUSEC"
+    BEAR = "pmcbear",
+    USEC = "pmcusec"
 }

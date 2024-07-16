@@ -1,5 +1,5 @@
 {
-    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.4",
+    "mod": "PreyToLive-BetterSpawnsPlus-v2.0.5",
     "description": "Bots Settings (Default Template)",
     
     "enabled": false,
@@ -32,7 +32,8 @@
             "followerBully": 1,
             "followerGluharAssault": 1,
             "followerSanitar": 1,
-            "pmcBot": 5
+            "pmcBot": 5,
+            "pmcBEAR": 2
         },
         "usec": {
             "arenaFighter": 0,
@@ -52,7 +53,8 @@
             "followerBully": 1,
             "followerGluharAssault": 1,
             "followerSanitar": 1,
-            "pmcBot": 5
+            "pmcBot": 5,
+            "pmcBEAR": 2
         },
         "scav": {
             "arenaFighter": 0,
@@ -72,7 +74,8 @@
             "followerBully": 0,
             "followerGluharAssault": 0,
             "followerSanitar": 0,
-            "pmcBot": 0
+            "pmcBot": 0,
+            "pmcBEAR": 0
         }
     }
 }
